@@ -1,0 +1,414 @@
+{
+  "profile": {
+    "name": "Korab Rrmoku",
+    "title": "Prof. Dr.",
+    "initials": "KR",
+    "id": "000",
+    "faculty": "FSHMN",
+    "fullFaculty": "Fakulteti i Shkencave Matematiko-Natyrore",
+    "emailInst": "korab.rrmoku@uni-pr.edu",
+    "emailPersonal": "korab.rrmoku@gmail.com",
+    "phone": "+383 44 123 456",
+    "office": "Zyra 305",
+    "consultations": "E martë 10:00–12:00",
+    "status": "Aktiv"
+  },
+  "courses": [
+    {
+      "id": "rrjeta",
+      "name": "Rrjeta Kompjuterike dhe WWW",
+      "year": 1,
+      "semester": 2,
+      "students": 45,
+      "ects": 6,
+      "color": "#007AFF"
+    },
+    {
+      "id": "uxui",
+      "name": "UX/UI Design",
+      "year": 2,
+      "semester": 4,
+      "students": 38,
+      "ects": 6,
+      "color": "#AF52DE"
+    },
+    {
+      "id": "web",
+      "name": "Programimi në Web",
+      "year": 3,
+      "semester": 6,
+      "students": 30,
+      "ects": 6,
+      "color": "#FF9500"
+    },
+    {
+      "id": "sinf",
+      "name": "Sistemet e Informacionit",
+      "year": 3,
+      "semester": 6,
+      "students": 28,
+      "ects": 6,
+      "color": "#34C759"
+    }
+  ],
+  "studentsByCourse": {
+    "rrjeta": [
+      {
+        "nr": 1,
+        "name": "Arta Berisha",
+        "studentId": "240204100009",
+        "attendance": 92,
+        "points": 78,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 2,
+        "name": "Blerim Krasniqi",
+        "studentId": "240204100012",
+        "attendance": 88,
+        "points": 65,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 3,
+        "name": "Drilon Hoxha",
+        "studentId": "240204100015",
+        "attendance": 72,
+        "points": 54,
+        "status": "Rrezik mungesash"
+      },
+      {
+        "nr": 4,
+        "name": "Elona Gashi",
+        "studentId": "240204100018",
+        "attendance": 95,
+        "points": 88,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 5,
+        "name": "Faton Rexhepi",
+        "studentId": "240204100021",
+        "attendance": 80,
+        "points": 62,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 6,
+        "name": "Granit Maliqi",
+        "studentId": "240204100024",
+        "attendance": 68,
+        "points": 48,
+        "status": "Rrezik mungesash"
+      },
+      {
+        "nr": 7,
+        "name": "Hana Shala",
+        "studentId": "240204100027",
+        "attendance": 90,
+        "points": 75,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 8,
+        "name": "Ilir Tahiri",
+        "studentId": "240204100030",
+        "attendance": 85,
+        "points": 70,
+        "status": "Aktiv"
+      }
+    ],
+    "uxui": [
+      {
+        "nr": 1,
+        "name": "Jonida Bajrami",
+        "studentId": "230204200005",
+        "attendance": 94,
+        "points": 82,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 2,
+        "name": "Kushtrim Sylaj",
+        "studentId": "230204200008",
+        "attendance": 78,
+        "points": 60,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 3,
+        "name": "Lirim Veseli",
+        "studentId": "230204200011",
+        "attendance": 88,
+        "points": 73,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 4,
+        "name": "Mira Hyseni",
+        "studentId": "230204200014",
+        "attendance": 96,
+        "points": 91,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 5,
+        "name": "Nora Krasniqi",
+        "studentId": "230204200017",
+        "attendance": 70,
+        "points": 55,
+        "status": "Rrezik mungesash"
+      }
+    ],
+    "web": [
+      {
+        "nr": 1,
+        "name": "Olta Demaj",
+        "studentId": "220204300003",
+        "attendance": 92,
+        "points": 80,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 2,
+        "name": "Pranvera Hoti",
+        "studentId": "220204300006",
+        "attendance": 85,
+        "points": 68,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 3,
+        "name": "Qendrim Beqiri",
+        "studentId": "220204300009",
+        "attendance": 90,
+        "points": 76,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 4,
+        "name": "Rrezarta Latifi",
+        "studentId": "220204300012",
+        "attendance": 75,
+        "points": 58,
+        "status": "Aktiv"
+      }
+    ],
+    "sinf": [
+      {
+        "nr": 1,
+        "name": "Saranda Mehmeti",
+        "studentId": "220204400002",
+        "attendance": 88,
+        "points": 72,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 2,
+        "name": "Trim Bytyçi",
+        "studentId": "220204400005",
+        "attendance": 93,
+        "points": 85,
+        "status": "Aktiv"
+      },
+      {
+        "nr": 3,
+        "name": "Urata Hajdari",
+        "studentId": "220204400008",
+        "attendance": 70,
+        "points": 52,
+        "status": "Rrezik mungesash"
+      },
+      {
+        "nr": 4,
+        "name": "Valon Murati",
+        "studentId": "220204400011",
+        "attendance": 96,
+        "points": 90,
+        "status": "Aktiv"
+      }
+    ]
+  },
+  "requests": [
+    {
+      "id": "r1",
+      "studentName": "Arta Berisha",
+      "studentId": "240204100009",
+      "course": "Rrjeta Kompjuterike dhe WWW",
+      "type": "Rivlerësim",
+      "date": "22.05.2026",
+      "status": "Në pritje",
+      "reason": "Gabim në llogaritjen e pikëve",
+      "detail": "Mendoj se pikët e kuizit nuk janë llogaritur saktë. Përgjigja ime e pyetjes 3 ishte e saktë."
+    },
+    {
+      "id": "r2",
+      "studentName": "Mira Hyseni",
+      "studentId": "230204200014",
+      "course": "UX/UI Design",
+      "type": "Konsultime",
+      "date": "21.05.2026",
+      "status": "Në pritje",
+      "reason": "Diskutim për projektin final",
+      "slot": "E martë, 25.05.2026, 10:30"
+    },
+    {
+      "id": "r3",
+      "studentName": "Drilon Hoxha",
+      "studentId": "240204100015",
+      "course": "Rrjeta Kompjuterike dhe WWW",
+      "type": "Ankesa",
+      "date": "20.05.2026",
+      "status": "Aprovuar",
+      "reason": "Problem teknik gjatë provimit"
+    },
+    {
+      "id": "r4",
+      "studentName": "Qendrim Beqiri",
+      "studentId": "220204300009",
+      "course": "Programimi në Web",
+      "type": "Rivlerësim",
+      "date": "19.05.2026",
+      "status": "Refuzuar",
+      "reason": "Kërkesë për shtimin e pikëve",
+      "detail": "Mendoj që detyra ime meriton më shumë pikë."
+    },
+    {
+      "id": "r5",
+      "studentName": "Jonida Bajrami",
+      "studentId": "230204200005",
+      "course": "UX/UI Design",
+      "type": "Konsultime",
+      "date": "18.05.2026",
+      "status": "Aprovuar",
+      "reason": "Pyetje për kolokfiumin",
+      "slot": "E martë, 25.05.2026, 11:00"
+    },
+    {
+      "id": "r6",
+      "studentName": "Valon Murati",
+      "studentId": "220204400011",
+      "course": "Sistemet e Informacionit",
+      "type": "Rivlerësim",
+      "date": "17.05.2026",
+      "status": "Në pritje",
+      "reason": "Rivlerësim i provimit final"
+    },
+    {
+      "id": "r7",
+      "studentName": "Saranda Mehmeti",
+      "studentId": "220204400002",
+      "course": "Sistemet e Informacionit",
+      "type": "Ankesa",
+      "date": "16.05.2026",
+      "status": "Në pritje",
+      "reason": "Çështje administrative"
+    }
+  ],
+  "schedule": [
+    {
+      "id": "c1",
+      "day": 0,
+      "start": "09:00",
+      "end": "10:30",
+      "course": "Rrjeta Kompjuterike dhe WWW",
+      "courseId": "rrjeta",
+      "type": "Ligjëratë",
+      "room": "Salla 201",
+      "group": "Viti 1, Grupi A",
+      "students": 45,
+      "color": "#007AFF"
+    },
+    {
+      "id": "c2",
+      "day": 0,
+      "start": "11:00",
+      "end": "12:30",
+      "course": "Programimi në Web",
+      "courseId": "web",
+      "type": "Ligjëratë",
+      "room": "Salla 305",
+      "group": "Viti 3, Grupi A",
+      "students": 30,
+      "color": "#FF9500"
+    },
+    {
+      "id": "c3",
+      "day": 1,
+      "start": "10:00",
+      "end": "11:30",
+      "course": "UX/UI Design",
+      "courseId": "uxui",
+      "type": "Ligjëratë",
+      "room": "Salla 102",
+      "group": "Viti 2, Grupi A",
+      "students": 38,
+      "color": "#AF52DE"
+    },
+    {
+      "id": "c4",
+      "day": 1,
+      "start": "14:00",
+      "end": "15:30",
+      "course": "Sistemet e Informacionit",
+      "courseId": "sinf",
+      "type": "Ligjëratë",
+      "room": "Salla 404",
+      "group": "Viti 3, Grupi B",
+      "students": 28,
+      "color": "#34C759"
+    },
+    {
+      "id": "c5",
+      "day": 2,
+      "start": "09:00",
+      "end": "10:30",
+      "course": "UX/UI Design",
+      "courseId": "uxui",
+      "type": "Laborator",
+      "room": "Lab. 1",
+      "group": "Viti 2, Grupi A",
+      "students": 38,
+      "color": "#AF52DE"
+    },
+    {
+      "id": "c6",
+      "day": 2,
+      "start": "12:00",
+      "end": "13:30",
+      "course": "Rrjeta Kompjuterike dhe WWW",
+      "courseId": "rrjeta",
+      "type": "Ushtrime",
+      "room": "Salla 203",
+      "group": "Viti 1, Grupi A",
+      "students": 45,
+      "color": "#007AFF"
+    },
+    {
+      "id": "c7",
+      "day": 3,
+      "start": "10:30",
+      "end": "12:00",
+      "course": "Programimi në Web",
+      "courseId": "web",
+      "type": "Laborator",
+      "room": "Lab. 2",
+      "group": "Viti 3, Grupi A",
+      "students": 30,
+      "color": "#FF9500"
+    },
+    {
+      "id": "c8",
+      "day": 4,
+      "start": "11:00",
+      "end": "12:30",
+      "course": "Sistemet e Informacionit",
+      "courseId": "sinf",
+      "type": "Ushtrime",
+      "room": "Salla 401",
+      "group": "Viti 3, Grupi B",
+      "students": 28,
+      "color": "#34C759"
+    }
+  ]
+}

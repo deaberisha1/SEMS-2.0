@@ -1,0 +1,97 @@
+/* PlaceholderPage styles */
+
+.placeholder-page-box {
+  padding: 1.5rem;
+}
+
+:where(.placeholder-page-box > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1.5rem;
+}
+
+.dark .placeholder-page-box {
+  background-color: transparent;
+}
+
+.placeholder-page-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.placeholder-page-title {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--gray-900);
+}
+
+.dark .placeholder-page-title {
+  color: #FFF;
+}
+
+.placeholder-page-text {
+  font-size: 1.125rem;
+  line-height: calc(1.75 / 1.125);
+  color: var(--gray-500);
+}
+
+.dark .placeholder-page-text {
+  color: var(--gray-550);
+}
+
+.placeholder-page-card {
+  display: flex;
+  min-height: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgb(0, 0, 0, 0.04);
+}
+
+.dark .placeholder-page-card {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  box-shadow: none;
+}
+
+.placeholder-page-text-2 {
+  margin-bottom: 1rem;
+  color: var(--gray-500);
+}
+
+.dark .placeholder-page-text-2 {
+  color: var(--gray-550);
+}
+
+.placeholder-page-svg {
+  margin-inline: auto;
+  height: 4rem;
+  width: 4rem;
+}
+
+.placeholder-page-text-3 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .placeholder-page-text-3 {
+  color: #FFF;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 768px) {
+  .placeholder-page-box {
+    padding: 2rem;
+  }
+}

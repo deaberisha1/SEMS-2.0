@@ -1,0 +1,451 @@
+/* ProfNotat styles */
+
+.prof-notat-box {
+  padding: 1rem;
+}
+
+:where(.prof-notat-box > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+}
+
+.prof-notat-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--gray-900);
+}
+
+.dark .prof-notat-title {
+  color: #FFF;
+}
+
+.prof-notat-text {
+  margin-top: 0.25rem;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.dark .prof-notat-text {
+  color: var(--gray-400);
+}
+
+.prof-notat-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 214, 10, 0.4);
+  background-color: #FFF8E6;
+  padding: 1rem;
+}
+
+.dark .prof-notat-card {
+  background-color: rgba(255, 149, 0, 0.1);
+}
+
+.prof-notat-icon {
+  margin-top: 0.125rem;
+  flex-shrink: 0;
+  color: var(--orange);
+}
+
+.dark .prof-notat-icon {
+  color: var(--orange-dark);
+}
+
+.prof-notat-text-2 {
+  font-size: 12px;
+  color: var(--gray-900);
+}
+
+.dark .prof-notat-text-2 {
+  color: var(--text-secondary-dark);
+}
+
+.prof-notat-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.prof-notat-row-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.prof-notat-btn {
+  height: 2.25rem;
+  border-radius: 9999px;
+  border-style: solid;
+  border-width: 1px;
+  padding-inline: 1rem;
+  font-size: 12px;
+  font-weight: 600;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.prof-notat-select {
+  height: 2.25rem;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  padding-inline: 0.75rem;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--gray-900);
+  outline-style: none;
+}
+
+.dark .prof-notat-select {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  color: #FFF;
+}
+
+.prof-notat-scroll {
+  overflow-x: auto;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+}
+
+.dark .prof-notat-scroll {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+}
+
+.prof-notat-table {
+  width: 100%;
+  font-size: 13px;
+}
+
+.prof-notat-row-3 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-200);
+  text-align: left;
+  font-size: 11px;
+  color: var(--gray-500);
+  text-transform: uppercase;
+}
+
+.dark .prof-notat-row-3 {
+  border-color: var(--gray-800);
+  color: var(--gray-400);
+}
+
+.prof-notat-th {
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+}
+
+.prof-notat-th-2 {
+  padding-inline: 0.75rem;
+  padding-block: 0.75rem;
+  text-align: center;
+}
+
+.prof-notat-row-4 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-200);
+}
+
+.prof-notat-row-4:last-child {
+  border-style: solid;
+  border-width: 0;
+}
+
+.dark .prof-notat-row-4 {
+  border-color: var(--gray-800);
+}
+
+.prof-notat-cell {
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+}
+
+.prof-notat-text-3 {
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .prof-notat-text-3 {
+  color: #FFF;
+}
+
+.prof-notat-text-4 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: 11px;
+  color: var(--gray-500);
+}
+
+.dark .prof-notat-text-4 {
+  color: var(--gray-400);
+}
+
+.prof-notat-cell-2 {
+  padding-inline: 0.75rem;
+  padding-block: 0.5rem;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.dark .prof-notat-cell-2 {
+  color: var(--text-secondary-dark);
+}
+
+.prof-notat-cell-3 {
+  padding-inline: 0.75rem;
+  padding-block: 0.5rem;
+  text-align: center;
+}
+
+.prof-notat-input {
+  height: 2rem;
+  width: 4rem;
+  border-radius: var(--radius);
+  background-color: var(--gray-100);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-900);
+  outline-style: none;
+}
+
+.dark .prof-notat-input {
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.prof-notat-cell-4 {
+  padding-inline: 0.75rem;
+  padding-block: 0.5rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.dark .prof-notat-cell-4 {
+  color: #FFF;
+}
+
+.prof-notat-input-2 {
+  height: 2rem;
+  width: 3.5rem;
+  border-radius: var(--radius);
+  background-color: var(--gray-100);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-900);
+  outline-style: none;
+}
+
+.dark .prof-notat-input-2 {
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.prof-notat-badge {
+  border-radius: 9999px;
+  padding-inline: 0.5rem;
+  padding-block: 0.125rem;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.prof-notat-row-5 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.prof-notat-btn-4 {
+  display: flex;
+  height: 2.75rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  background-color: var(--blue);
+  padding-inline: 1.25rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.dark .prof-notat-btn-4 {
+  background-color: var(--blue-dark);
+}
+
+.prof-notat-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dark .prof-notat-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.prof-notat-card-2 {
+  width: 100%;
+  max-width: 28rem;
+  border-radius: 1rem;
+  background-color: #FFF;
+  padding: 1.5rem;
+}
+
+.dark .prof-notat-card-2 {
+  background-color: var(--gray-900);
+}
+
+.prof-notat-row-6 {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.prof-notat-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.dark .prof-notat-heading {
+  color: #FFF;
+}
+
+.prof-notat-icon-2 {
+  color: var(--gray-500);
+}
+
+.prof-notat-text-7 {
+  margin-bottom: 1.25rem;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.dark .prof-notat-text-7 {
+  color: var(--text-secondary-dark);
+}
+
+.prof-notat-row-7 {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.prof-notat-btn-5 {
+  height: 2.5rem;
+  flex: 1;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.dark .prof-notat-btn-5 {
+  border-color: var(--gray-800);
+  color: #FFF;
+}
+
+.prof-notat-btn-6 {
+  height: 2.5rem;
+  flex: 1;
+  border-radius: var(--radius-xl);
+  background-color: var(--blue);
+  font-size: 13px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.dark .prof-notat-btn-6 {
+  background-color: var(--blue-dark);
+}
+
+.prof-notat-card-3 {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  background-color: var(--green);
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  color: #FFF;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.dark .prof-notat-card-3 {
+  background-color: var(--green-dark);
+}
+
+.prof-notat-text-8 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.prof-notat-btn-2 {
+  border-color: transparent;
+  color: #FFF;
+}
+
+.prof-notat-btn-3 {
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  color: var(--text-secondary);
+}
+
+.dark .prof-notat-btn-3 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  color: var(--text-secondary-dark);
+}
+
+.prof-notat-text-5 {
+  background-color: rgba(52, 199, 89, 0.15);
+  color: var(--green);
+}
+
+.dark .prof-notat-text-5 {
+  color: var(--green-dark);
+}
+
+.prof-notat-text-6 {
+  background-color: rgba(255, 59, 48, 0.15);
+  color: var(--red);
+}
+
+.dark .prof-notat-text-6 {
+  color: var(--red-dark);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 640px) {
+  .prof-notat-box {
+    padding: 1.5rem;
+  }
+}

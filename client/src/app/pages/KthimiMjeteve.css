@@ -1,0 +1,159 @@
+/* KthimiMjeteve styles */
+
+.kthimi-mjeteve-box {
+  padding: 1.5rem;
+}
+
+:where(.kthimi-mjeteve-box > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1.5rem;
+}
+
+.dark .kthimi-mjeteve-box {
+  background-color: transparent;
+}
+
+.kthimi-mjeteve-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.kthimi-mjeteve-title {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--gray-900);
+}
+
+.dark .kthimi-mjeteve-title {
+  color: #FFF;
+}
+
+.kthimi-mjeteve-text {
+  font-size: 1.125rem;
+  line-height: calc(1.75 / 1.125);
+  color: var(--gray-500);
+}
+
+.dark .kthimi-mjeteve-text {
+  color: var(--gray-550);
+}
+
+.kthimi-mjeteve-card {
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgb(0, 0, 0, 0.04);
+}
+
+.dark .kthimi-mjeteve-card {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  box-shadow: none;
+}
+
+.kthimi-mjeteve-stack-2 {
+  display: flex;
+  max-width: 32rem;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.kthimi-mjeteve-label {
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .kthimi-mjeteve-label {
+  color: #FFF;
+}
+
+.kthimi-mjeteve-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.kthimi-mjeteve-input {
+  min-width: 0;
+  flex: 1;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: var(--gray-100);
+  padding-inline: 1rem;
+  padding-block: 0.625rem;
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  color: var(--gray-900);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kthimi-mjeteve-input::placeholder {
+  color: var(--gray-500);
+}
+
+.kthimi-mjeteve-input:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 2px var(--blue);
+  outline-style: none;
+}
+
+.dark .kthimi-mjeteve-input {
+  border-color: var(--gray-800);
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kthimi-mjeteve-input::placeholder {
+  color: var(--gray-550);
+}
+
+.kthimi-mjeteve-btn {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  background-color: var(--blue);
+  padding-inline: 1.25rem;
+  padding-block: 0.625rem;
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  font-weight: 500;
+  color: #FFF;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kthimi-mjeteve-btn:hover {
+  background-color: #0066D6;
+}
+
+.kthimi-mjeteve-btn:active {
+  background-color: #005BBB;
+}
+
+.kthimi-mjeteve-icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 768px) {
+  .kthimi-mjeteve-box {
+    padding: 2rem;
+  }
+}

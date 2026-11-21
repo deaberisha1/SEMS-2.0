@@ -1,0 +1,231 @@
+/* MainLayout styles */
+
+.main-layout-row {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.dark .main-layout-row {
+  background-color: #000;
+  color: #FFF;
+}
+
+.main-layout-box {
+  display: none;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+.main-layout-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+}
+
+.main-layout-layer {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dark .main-layout-layer {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-layout-stack {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  background-color: #FFF;
+}
+
+.dark .main-layout-stack {
+  background-color: var(--gray-900);
+}
+
+.main-layout-stack-2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.main-layout-row-2 {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.dark .main-layout-row-2 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+}
+
+.main-layout-btn {
+  border-radius: var(--radius-xl);
+  background-color: var(--gray-100);
+  padding: 0.5rem;
+}
+
+.dark .main-layout-btn {
+  background-color: var(--gray-850);
+}
+
+.main-layout-icon {
+  color: var(--gray-900);
+}
+
+.dark .main-layout-icon {
+  color: #FFF;
+}
+
+.main-layout-row-3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.main-layout-icon-box {
+  display: flex;
+  height: 1.75rem;
+  width: 1.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  background-color: var(--blue);
+}
+
+.main-layout-text {
+  font-size: 0.75rem;
+  line-height: calc(1 / 0.75);
+  font-weight: 700;
+  color: #FFF;
+}
+
+.main-layout-text-2 {
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.dark .main-layout-text-2 {
+  color: #FFF;
+}
+
+.main-layout-box-2 {
+  width: 2.5rem;
+}
+
+.main-layout-scroll {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.main-layout-row-4 {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-around;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: var(--gray-200);
+  padding-block: 0.5rem;
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.dark .main-layout-row-4 {
+  border-color: var(--gray-800);
+  background-color: rgba(28, 28, 30, 0.9);
+}
+
+.main-layout-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.125rem;
+  padding-inline: 0.75rem;
+  padding-block: 0.25rem;
+}
+
+.main-layout-text-3 {
+  color: var(--blue);
+}
+
+.dark .main-layout-text-3 {
+  color: var(--blue-dark);
+}
+
+.main-layout-text-4 {
+  color: var(--gray-500);
+}
+
+.dark .main-layout-text-4 {
+  color: var(--gray-550);
+}
+
+.main-layout-text-5 {
+  font-size: 10px;
+}
+
+.main-layout-text-6 {
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.dark .main-layout-text-6 {
+  color: var(--blue-dark);
+}
+
+.main-layout-text-7 {
+  font-weight: 400;
+  color: var(--gray-500);
+}
+
+.dark .main-layout-text-7 {
+  color: var(--gray-550);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 1024px) {
+  .main-layout-box {
+    display: flex;
+  }
+
+  .main-layout-overlay {
+    display: none;
+  }
+
+  .main-layout-row-2 {
+    display: none;
+  }
+
+  .main-layout-row-4 {
+    display: none;
+  }
+}

@@ -1,0 +1,4 @@
+/* Global styles — imported once in main.jsx.
+   Each page/component imports its own stylesheet next to it. */
+@import "./variables.css";
+@import "./base.css";

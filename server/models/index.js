@@ -1,0 +1,9 @@
+export { default as User } from "./User.js";
+export { default as Session } from "./Session.js";
+export { default as StudentData } from "./StudentData.js";
+export { default as ProfessorData } from "./ProfessorData.js";
+export { default as Consultation } from "./Consultation.js";
+export { default as Request } from "./Request.js";
+export { default as Assessment } from "./Assessment.js";
+export { default as Grade } from "./Grade.js";
+export { default as Certificate } from "./Certificate.js";

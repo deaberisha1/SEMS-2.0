@@ -1,0 +1,838 @@
+/* KerkeseAnkese styles */
+
+.kerkese-ankese-box {
+  padding: 1rem;
+}
+
+:where(.kerkese-ankese-box > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1.5rem;
+}
+
+.dark .kerkese-ankese-box {
+  background-color: transparent;
+}
+
+.kerkese-ankese-title {
+  margin-bottom: 0.25rem;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--gray-900);
+}
+
+.dark .kerkese-ankese-title {
+  color: #FFF;
+}
+
+.kerkese-ankese-text {
+  font-size: 15px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-text {
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-box-2 {
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  box-shadow: 0 4px 20px rgb(0, 0, 0, 0.03);
+}
+
+.dark .kerkese-ankese-box-2 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  box-shadow: none;
+}
+
+.kerkese-ankese-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+  padding-inline: 1.25rem;
+  padding-block: 1rem;
+}
+
+.dark .kerkese-ankese-stack {
+  border-color: var(--gray-850);
+}
+
+.kerkese-ankese-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.kerkese-ankese-label {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--text-secondary);
+}
+
+.dark .kerkese-ankese-label {
+  color: var(--text-secondary-dark);
+}
+
+.kerkese-ankese-box-3 {
+  position: relative;
+}
+
+.kerkese-ankese-icon {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  translate: 0 -50%;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-icon {
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-input {
+  height: 2.25rem;
+  width: 220px;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: var(--gray-100);
+  padding-right: 0.75rem;
+  padding-left: 2rem;
+  font-size: 13px;
+  color: var(--gray-900);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  outline-style: none;
+}
+
+.kerkese-ankese-input::placeholder {
+  color: var(--gray-300);
+}
+
+.kerkese-ankese-input:focus {
+  border-color: var(--blue);
+}
+
+.dark .kerkese-ankese-input {
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kerkese-ankese-input::placeholder {
+  color: var(--gray-700);
+}
+
+.dark .kerkese-ankese-input:focus {
+  border-color: var(--blue-dark);
+}
+
+.kerkese-ankese-row-2 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.kerkese-ankese-select {
+  height: 2.25rem;
+  cursor: pointer;
+  appearance: none;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: var(--gray-100);
+  padding-inline: 0.5rem;
+  padding-right: 1.75rem;
+  font-size: 13px;
+  color: var(--gray-900);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  outline-style: none;
+}
+
+.kerkese-ankese-select:focus {
+  border-color: var(--blue);
+}
+
+.dark .kerkese-ankese-select {
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kerkese-ankese-select:focus {
+  border-color: var(--blue-dark);
+}
+
+.kerkese-ankese-btn {
+  display: flex;
+  height: 2.25rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  background-color: var(--blue);
+  padding-inline: 1rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: #FFF;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-ankese-btn:hover {
+  background-color: #0066D6;
+}
+
+.kerkese-ankese-btn:active {
+  scale: 0.97;
+}
+
+.dark .kerkese-ankese-btn {
+  background-color: var(--blue-dark);
+}
+
+.dark .kerkese-ankese-btn:hover {
+  background-color: #0A7AEB;
+}
+
+.kerkese-ankese-scroll {
+  display: none;
+  overflow-x: auto;
+}
+
+.kerkese-ankese-table {
+  width: 100%;
+  font-size: 14px;
+}
+
+.kerkese-ankese-row-3 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+}
+
+.dark .kerkese-ankese-row-3 {
+  border-color: var(--gray-850);
+}
+
+.kerkese-ankese-th {
+  padding-inline: 1.25rem;
+  padding-block: 0.75rem;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--blue);
+}
+
+.dark .kerkese-ankese-th {
+  color: var(--blue-dark);
+}
+
+.kerkese-ankese-cell {
+  padding-inline: 1.25rem;
+  padding-block: 4rem;
+  text-align: center;
+  font-size: 14px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-cell {
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-row-4 {
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-ankese-row-4:hover {
+  background-color: var(--gray-50);
+}
+
+.dark .kerkese-ankese-row-4:hover {
+  background-color: var(--gray-850);
+}
+
+.kerkese-ankese-cell-2 {
+  padding-inline: 1.25rem;
+  padding-block: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--blue);
+}
+
+.dark .kerkese-ankese-cell-2 {
+  color: var(--blue-dark);
+}
+
+.kerkese-ankese-cell-3 {
+  padding-inline: 1.25rem;
+  padding-block: 0.875rem;
+  white-space: nowrap;
+  color: var(--gray-900);
+}
+
+.dark .kerkese-ankese-cell-3 {
+  color: #FFF;
+}
+
+.kerkese-ankese-cell-4 {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-inline: 1.25rem;
+  padding-block: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.dark .kerkese-ankese-cell-4 {
+  color: var(--text-secondary-dark);
+}
+
+.kerkese-ankese-cell-5 {
+  padding-inline: 1.25rem;
+  padding-block: 0.875rem;
+  white-space: nowrap;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-cell-5 {
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-cell-6 {
+  padding-inline: 1.25rem;
+  padding-block: 0.875rem;
+  white-space: nowrap;
+  color: var(--text-secondary);
+}
+
+.dark .kerkese-ankese-cell-6 {
+  color: var(--text-secondary-dark);
+}
+
+.kerkese-ankese-cell-7 {
+  padding-inline: 1.25rem;
+  padding-block: 0.875rem;
+}
+
+.kerkese-ankese-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius);
+  padding-inline: 0.625rem;
+  padding-block: 0.25rem;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.kerkese-ankese-btn-2 {
+  display: inline-flex;
+  height: 2rem;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: var(--radius);
+  background-color: var(--gray-100);
+  padding-inline: 0.75rem;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--gray-900);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-ankese-btn-2:hover {
+  background-color: var(--gray-200);
+}
+
+.dark .kerkese-ankese-btn-2 {
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kerkese-ankese-btn-2:hover {
+  background-color: var(--gray-800);
+}
+
+.kerkese-ankese-box-4 {
+  padding-block: 4rem;
+  text-align: center;
+  font-size: 14px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-box-4 {
+  color: var(--gray-550);
+}
+
+:where(.kerkese-ankese-box-5 > :not(:last-child)) {
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-top-width: 0;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+}
+
+.dark :where(.kerkese-ankese-box-5 > :not(:last-child)) {
+  border-color: var(--gray-850);
+}
+
+.kerkese-ankese-box-6 {
+  padding: 1rem;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+:where(.kerkese-ankese-box-6 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 0.5rem;
+}
+
+.kerkese-ankese-box-6:hover {
+  background-color: var(--gray-50);
+}
+
+.dark .kerkese-ankese-box-6:hover {
+  background-color: var(--gray-850);
+}
+
+.kerkese-ankese-row-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kerkese-ankese-text-3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.dark .kerkese-ankese-text-3 {
+  color: var(--blue-dark);
+}
+
+.kerkese-ankese-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 1rem;
+  row-gap: 0.25rem;
+  font-size: 13px;
+}
+
+.kerkese-ankese-text-4 {
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-text-4 {
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-text-5 {
+  color: var(--gray-900);
+}
+
+.dark .kerkese-ankese-text-5 {
+  color: #FFF;
+}
+
+.kerkese-ankese-box-7 {
+  grid-column: span 2 / span 2;
+}
+
+.kerkese-ankese-row-6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: var(--gray-100);
+  padding-inline: 1.25rem;
+  padding-block: 0.75rem;
+}
+
+.dark .kerkese-ankese-row-6 {
+  border-color: var(--gray-850);
+}
+
+.kerkese-ankese-text-6 {
+  font-size: 12px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-text-6 {
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-btn-3 {
+  display: inline-flex;
+  height: 2rem;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: var(--radius);
+  background-color: var(--gray-100);
+  padding-inline: 0.75rem;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-900);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-ankese-btn-3:hover {
+  background-color: var(--gray-200);
+}
+
+.kerkese-ankese-btn-3:disabled {
+  cursor: not-allowed;
+  opacity: 40%;
+}
+
+.dark .kerkese-ankese-btn-3 {
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kerkese-ankese-btn-3:hover {
+  background-color: var(--gray-800);
+}
+
+.kerkese-ankese-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dark .kerkese-ankese-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.kerkese-ankese-card {
+  width: 100%;
+  max-width: 28rem;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  padding: 1.5rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.dark .kerkese-ankese-card {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+}
+
+.kerkese-ankese-row-7 {
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kerkese-ankese-title-2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.dark .kerkese-ankese-title-2 {
+  color: #FFF;
+}
+
+.kerkese-ankese-text-7 {
+  margin-top: 0.125rem;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-text-7 {
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-btn-4 {
+  border-radius: var(--radius-xl);
+  padding: 0.5rem;
+  color: var(--gray-500);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-ankese-btn-4:hover {
+  background-color: var(--gray-100);
+}
+
+.dark .kerkese-ankese-btn-4 {
+  color: var(--gray-550);
+}
+
+.dark .kerkese-ankese-btn-4:hover {
+  background-color: var(--gray-850);
+}
+
+:where(.kerkese-ankese-box-8 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 0.75rem;
+}
+
+.kerkese-ankese-label-2 {
+  margin-bottom: 0.25rem;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-label-2 {
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-input-2 {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: var(--gray-100);
+  padding-inline: 0.75rem;
+  font-size: 14px;
+  color: var(--gray-900);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  outline-style: none;
+}
+
+.kerkese-ankese-input-2::placeholder {
+  color: var(--gray-300);
+}
+
+.kerkese-ankese-input-2:focus {
+  border-color: var(--blue);
+}
+
+.dark .kerkese-ankese-input-2 {
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kerkese-ankese-input-2::placeholder {
+  color: var(--gray-700);
+}
+
+.dark .kerkese-ankese-input-2:focus {
+  border-color: var(--blue-dark);
+}
+
+.kerkese-ankese-textarea {
+  width: 100%;
+  resize: none;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  background-color: var(--gray-100);
+  padding-inline: 0.75rem;
+  padding-block: 0.625rem;
+  font-size: 14px;
+  color: var(--gray-900);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  outline-style: none;
+}
+
+.kerkese-ankese-textarea::placeholder {
+  color: var(--gray-300);
+}
+
+.kerkese-ankese-textarea:focus {
+  border-color: var(--blue);
+}
+
+.dark .kerkese-ankese-textarea {
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kerkese-ankese-textarea::placeholder {
+  color: var(--gray-700);
+}
+
+.dark .kerkese-ankese-textarea:focus {
+  border-color: var(--blue-dark);
+}
+
+.kerkese-ankese-row-8 {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.kerkese-ankese-btn-5 {
+  height: 2.5rem;
+  flex: 1;
+  border-radius: var(--radius-xl);
+  background-color: var(--gray-100);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray-900);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-ankese-btn-5:hover {
+  background-color: var(--gray-200);
+}
+
+.dark .kerkese-ankese-btn-5 {
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kerkese-ankese-btn-5:hover {
+  background-color: var(--gray-800);
+}
+
+.kerkese-ankese-btn-6 {
+  height: 2.5rem;
+  flex: 1;
+  border-radius: var(--radius-xl);
+  background-color: var(--blue);
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFF;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-ankese-btn-6:hover {
+  background-color: #0066D6;
+}
+
+.dark .kerkese-ankese-btn-6 {
+  background-color: var(--blue-dark);
+}
+
+.dark .kerkese-ankese-btn-6:hover {
+  background-color: #0A7AEB;
+}
+
+.kerkese-ankese-box-9 {
+  font-size: 14px;
+}
+
+:where(.kerkese-ankese-box-9 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 0.75rem;
+}
+
+.kerkese-ankese-row-9 {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.kerkese-ankese-text-8 {
+  width: 140px;
+  flex-shrink: 0;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-text-8 {
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-variant {
+  background-color: var(--gray-100);
+  color: var(--gray-500);
+}
+
+.dark .kerkese-ankese-variant {
+  background-color: var(--gray-850);
+  color: var(--gray-550);
+}
+
+.kerkese-ankese-variant-2 {
+  background-color: var(--orange-soft);
+  color: #B25800;
+}
+
+.dark .kerkese-ankese-variant-2 {
+  background-color: rgba(255, 159, 10, 0.15);
+  color: var(--orange-dark);
+}
+
+.kerkese-ankese-variant-3 {
+  background-color: var(--green-soft);
+  color: #1C9C3C;
+}
+
+.dark .kerkese-ankese-variant-3 {
+  background-color: rgba(50, 215, 75, 0.15);
+  color: #32D74B;
+}
+
+.kerkese-ankese-variant-4 {
+  background-color: var(--pink-soft);
+  color: #C0143C;
+}
+
+.dark .kerkese-ankese-variant-4 {
+  background-color: rgba(255, 55, 95, 0.15);
+  color: var(--pink);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 640px) {
+  .kerkese-ankese-stack {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .kerkese-ankese-box {
+    padding: 2rem;
+  }
+
+  .kerkese-ankese-scroll {
+    display: block;
+  }
+
+  .kerkese-ankese-text-2 {
+    display: none;
+  }
+}

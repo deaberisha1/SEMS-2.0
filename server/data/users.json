@@ -1,0 +1,14 @@
+[
+  {
+    "id": "111",
+    "name": "Arta Berisha",
+    "role": "student",
+    "password": "3b34848cc743e15195da2712b2464ecb:5c45c2430a18c17d35a6d81019156e4a315ccb50b0d7272db4319985566d9d0ccf0994affd884e4e8f9c63bf3f9751dad78db3ca9b4065159dd9c5934254499e"
+  },
+  {
+    "id": "000",
+    "name": "Prof. Dr. Korab Rrmoku",
+    "role": "professor",
+    "password": "71dfd4b9db2293434c947952cfdcbd90:ddb1c202abd3c7b40cdb6f4cb54c9aace4fde13d74f4f7cbc94f9230c4ab99fb303899968c4ef537eacd57480045a888c401f87c2aedec77fb7f2ffe51533664"
+  }
+]

@@ -1,0 +1,16 @@
+/* ImageWithFallback styles */
+
+.image-with-fallback-box {
+  display: inline-block;
+  background-color: #F3F4F6;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.image-with-fallback-row {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

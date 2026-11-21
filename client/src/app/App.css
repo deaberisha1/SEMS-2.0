@@ -1,0 +1,16 @@
+/* App shell styles */
+
+.app-loading {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-100);
+  font-size: 14px;
+  color: var(--gray-500);
+}
+
+.dark .app-loading {
+  background-color: #000;
+  color: var(--gray-550);
+}

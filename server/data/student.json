@@ -1,0 +1,1248 @@
+{
+  "profile": {
+    "name": "Arta Berisha",
+    "firstName": "Arta",
+    "initials": "AB",
+    "info": "Viti 3 · Inf.",
+    "studentNumber": "240204100009",
+    "emailPersonal": "arta.berisha@gmail.com",
+    "telefon": "+383 44 123 456",
+    "adresa": "Rr. Nënë Tereza, Prishtinë"
+  },
+  "upcomingExams": [
+    {
+      "subject": "Teoria e Gjasës",
+      "date": "15 Qershor",
+      "time": "10:00",
+      "room": "Salla 113",
+      "daysLeft": 26
+    },
+    {
+      "subject": "UX/UI Design",
+      "date": "18 Qershor",
+      "time": "12:00",
+      "room": "Salla 153",
+      "daysLeft": 29
+    },
+    {
+      "subject": "Siguria e të Dhënave",
+      "date": "20 Qershor",
+      "time": "09:00",
+      "room": "Salla 113",
+      "daysLeft": 31
+    }
+  ],
+  "recentGrades": [
+    {
+      "subject": "Inxhinieria e Softuerit",
+      "grade": 9,
+      "ects": 6,
+      "status": "kaluar"
+    },
+    {
+      "subject": "Zhvillimi në Web",
+      "grade": 9,
+      "ects": 6,
+      "status": "kaluar"
+    },
+    {
+      "subject": "Rrjetet Kompjuterike",
+      "grade": 8,
+      "ects": 6,
+      "status": "kaluar"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "text": "Kërkesa juaj për konsultim u aprovua nga Prof. Bujar Fejzullahu.",
+      "time": "2 orë",
+      "read": false
+    },
+    {
+      "id": 2,
+      "text": "Afati i regjistrimit të provimeve mbyllet më 30 Mars 2026.",
+      "time": "1 ditë",
+      "read": false
+    },
+    {
+      "id": 3,
+      "text": "Nota juaj për lëndën Zhvillimi në Web është postuar: 9.",
+      "time": "3 ditë",
+      "read": true
+    }
+  ],
+  "transcript": [
+    {
+      "nr": 1,
+      "kodi": "CS-31",
+      "lenda": "Teoria e Gjasës",
+      "prof": "Prof. Bujar Fejzullahu",
+      "nota": null,
+      "ects": 6,
+      "data": "—",
+      "sesioni": "Qershor 2026"
+    },
+    {
+      "nr": 2,
+      "kodi": "CS-32",
+      "lenda": "UX/UI Design",
+      "prof": "Prof. Korab Rrmoku",
+      "nota": null,
+      "ects": 6,
+      "data": "—",
+      "sesioni": "Qershor 2026"
+    },
+    {
+      "nr": 3,
+      "kodi": "CS-33",
+      "lenda": "Siguria e të Dhënave",
+      "prof": "Prof. Artan Berisha",
+      "nota": null,
+      "ects": 6,
+      "data": "—",
+      "sesioni": "Qershor 2026"
+    },
+    {
+      "nr": 4,
+      "kodi": "CS-34",
+      "lenda": "OOP / GUI",
+      "prof": "Prof. Faton Berisha",
+      "nota": null,
+      "ects": 6,
+      "data": "—",
+      "sesioni": "Qershor 2026"
+    },
+    {
+      "nr": 5,
+      "kodi": "CS-35",
+      "lenda": "Inteligjenca Artificiale",
+      "prof": "Prof. Eliot Bytyçi",
+      "nota": null,
+      "ects": 6,
+      "data": "—",
+      "sesioni": "Qershor 2026"
+    },
+    {
+      "nr": 6,
+      "kodi": "CS-26",
+      "lenda": "Inxhinieria e Softuerit",
+      "prof": "Prof. Artan Berisha",
+      "nota": 9,
+      "ects": 6,
+      "data": "20.01.2026",
+      "sesioni": "Janar 2026"
+    },
+    {
+      "nr": 7,
+      "kodi": "CS-27",
+      "lenda": "Siguria në Internet",
+      "prof": "Prof. Artan Berisha",
+      "nota": 10,
+      "ects": 6,
+      "data": "24.01.2026",
+      "sesioni": "Janar 2026"
+    },
+    {
+      "nr": 8,
+      "kodi": "CS-28",
+      "lenda": "Zhvillimi në Web",
+      "prof": "Prof. Korab Rrmoku",
+      "nota": 9,
+      "ects": 6,
+      "data": "28.01.2026",
+      "sesioni": "Janar 2026"
+    },
+    {
+      "nr": 9,
+      "kodi": "CS-29",
+      "lenda": "Rrjetet Kompjuterike",
+      "prof": "Prof. Korab Rrmoku",
+      "nota": 8,
+      "ects": 6,
+      "data": "05.02.2026",
+      "sesioni": "Janar 2026"
+    },
+    {
+      "nr": 10,
+      "kodi": "CS-21",
+      "lenda": "Databazat",
+      "prof": "Prof. Artan Berisha",
+      "nota": 9,
+      "ects": 6,
+      "data": "20.06.2025",
+      "sesioni": "Qershor 2025"
+    },
+    {
+      "nr": 11,
+      "kodi": "CS-22",
+      "lenda": "Algoritmet dhe Str. Dhënave",
+      "prof": "Prof. Eliot Bytyçi",
+      "nota": 9,
+      "ects": 6,
+      "data": "25.06.2025",
+      "sesioni": "Qershor 2025"
+    },
+    {
+      "nr": 12,
+      "kodi": "CS-23",
+      "lenda": "Sistemet Operative",
+      "prof": "Prof. Korab Rrmoku",
+      "nota": 8,
+      "ects": 6,
+      "data": "30.06.2025",
+      "sesioni": "Qershor 2025"
+    },
+    {
+      "nr": 13,
+      "kodi": "CS-24",
+      "lenda": "Menaxhimi i Projekteve",
+      "prof": "Prof. Eliot Bytyçi",
+      "nota": 9,
+      "ects": 6,
+      "data": "05.07.2025",
+      "sesioni": "Qershor 2025"
+    },
+    {
+      "nr": 14,
+      "kodi": "CS-11",
+      "lenda": "Programimi Objekt i Orientuar",
+      "prof": "Prof. Faton Berisha",
+      "nota": 9,
+      "ects": 6,
+      "data": "15.01.2025",
+      "sesioni": "Janar 2025"
+    },
+    {
+      "nr": 15,
+      "kodi": "CS-12",
+      "lenda": "Matematikë Diskrete",
+      "prof": "Prof. Faton Berisha",
+      "nota": 8,
+      "ects": 6,
+      "data": "20.01.2025",
+      "sesioni": "Janar 2025"
+    },
+    {
+      "nr": 16,
+      "kodi": "CS-13",
+      "lenda": "Arkitektura e Kompjuterëve",
+      "prof": "Prof. Bujar Fejzullahu",
+      "nota": 8,
+      "ects": 6,
+      "data": "27.01.2025",
+      "sesioni": "Janar 2025"
+    },
+    {
+      "nr": 17,
+      "kodi": "CS-14",
+      "lenda": "Hyrje në Programim (C++)",
+      "prof": "Prof. Faton Berisha",
+      "nota": 10,
+      "ects": 6,
+      "data": "03.02.2025",
+      "sesioni": "Janar 2025"
+    },
+    {
+      "nr": 18,
+      "kodi": "CS-01",
+      "lenda": "Matematika 1",
+      "prof": "Prof. Bujar Fejzullahu",
+      "nota": 9,
+      "ects": 6,
+      "data": "16.06.2024",
+      "sesioni": "Qershor 2024"
+    },
+    {
+      "nr": 19,
+      "kodi": "CS-02",
+      "lenda": "Fizika 1",
+      "prof": "Prof. Bujar Fejzullahu",
+      "nota": 8,
+      "ects": 6,
+      "data": "22.06.2024",
+      "sesioni": "Qershor 2024"
+    },
+    {
+      "nr": 20,
+      "kodi": "CS-03",
+      "lenda": "Hyrje në Informatikë",
+      "prof": "Prof. Eliot Bytyçi",
+      "nota": 9,
+      "ects": 6,
+      "data": "28.06.2024",
+      "sesioni": "Qershor 2024"
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "subject": "Teoria e Gjasës",
+      "kodi": "CS-31",
+      "professor": "Prof. Bujar Fejzullahu",
+      "ta": "TA. Florent Zymeri",
+      "room": "Salla 113",
+      "type": "ligjëratë",
+      "color": "#007AFF",
+      "bg": "#EBF5FF",
+      "darkColor": "#0A84FF",
+      "darkBg": "rgba(10, 132, 255, 0.2)",
+      "startHour": 8,
+      "endHour": 9.5,
+      "day": 0
+    },
+    {
+      "id": 2,
+      "subject": "UX/UI Design",
+      "kodi": "CS-32",
+      "professor": "Prof. Korab Rrmoku",
+      "ta": "TA. Hekuran Kastrati",
+      "room": "Salla 153",
+      "type": "ligjëratë",
+      "color": "#FF2D55",
+      "bg": "#FFF0F3",
+      "darkColor": "#FF375F",
+      "darkBg": "rgba(255, 55, 95, 0.2)",
+      "startHour": 13,
+      "endHour": 14.5,
+      "day": 0
+    },
+    {
+      "id": 4,
+      "subject": "OOP / GUI",
+      "kodi": "CS-34",
+      "professor": "Prof. Faton Berisha",
+      "ta": "TA. Nora Sejdiu",
+      "room": "Salla 114",
+      "type": "ligjëratë",
+      "color": "#5856D6",
+      "bg": "#F0EFFF",
+      "darkColor": "#5E5CE6",
+      "darkBg": "rgba(94, 92, 230, 0.2)",
+      "startHour": 10,
+      "endHour": 11.5,
+      "day": 1
+    },
+    {
+      "id": 3,
+      "subject": "Siguria e të Dhënave",
+      "kodi": "CS-33",
+      "professor": "Prof. Artan Berisha",
+      "ta": "TA. Nora Sejdiu",
+      "room": "Salla 113",
+      "type": "ligjëratë",
+      "color": "#34C759",
+      "bg": "#EDFAF1",
+      "darkColor": "#32D74B",
+      "darkBg": "rgba(50, 215, 75, 0.2)",
+      "startHour": 14,
+      "endHour": 15.5,
+      "day": 1
+    },
+    {
+      "id": 5,
+      "subject": "Inteligjenca Artificiale",
+      "kodi": "CS-35",
+      "professor": "Prof. Eliot Bytyçi",
+      "ta": "TA. Shemb Abdullahu",
+      "room": "Salla 153",
+      "type": "ligjëratë",
+      "color": "#FF9500",
+      "bg": "#FFF5E6",
+      "darkColor": "#FF9F0A",
+      "darkBg": "rgba(255, 159, 10, 0.2)",
+      "startHour": 8.5,
+      "endHour": 10,
+      "day": 2
+    },
+    {
+      "id": 6,
+      "subject": "OOP / GUI",
+      "kodi": "CS-34",
+      "professor": "Prof. Faton Berisha",
+      "ta": "TA. Nora Sejdiu",
+      "room": "Lab V",
+      "type": "lab",
+      "color": "#5856D6",
+      "bg": "#F0EFFF",
+      "darkColor": "#5E5CE6",
+      "darkBg": "rgba(94, 92, 230, 0.2)",
+      "startHour": 11.5,
+      "endHour": 13,
+      "day": 2
+    },
+    {
+      "id": 7,
+      "subject": "Teoria e Gjasës",
+      "kodi": "CS-31",
+      "professor": "Prof. Bujar Fejzullahu",
+      "ta": "TA. Florent Zymeri",
+      "room": "Salla 153",
+      "type": "ushtrime",
+      "color": "#007AFF",
+      "bg": "#EBF5FF",
+      "darkColor": "#0A84FF",
+      "darkBg": "rgba(10, 132, 255, 0.2)",
+      "startHour": 9,
+      "endHour": 10.5,
+      "day": 3
+    },
+    {
+      "id": 8,
+      "subject": "Inteligjenca Artificiale",
+      "kodi": "CS-35",
+      "professor": "Prof. Eliot Bytyçi",
+      "ta": "TA. Shemb Abdullahu",
+      "room": "Lab M",
+      "type": "lab",
+      "color": "#FF9500",
+      "bg": "#FFF5E6",
+      "darkColor": "#FF9F0A",
+      "darkBg": "rgba(255, 159, 10, 0.2)",
+      "startHour": 13.5,
+      "endHour": 15,
+      "day": 3
+    },
+    {
+      "id": 9,
+      "subject": "UX/UI Design",
+      "kodi": "CS-32",
+      "professor": "Prof. Korab Rrmoku",
+      "ta": "TA. Hekuran Kastrati",
+      "room": "Salla 153",
+      "type": "ushtrime",
+      "color": "#FF2D55",
+      "bg": "#FFF0F3",
+      "darkColor": "#FF375F",
+      "darkBg": "rgba(255, 55, 95, 0.2)",
+      "startHour": 8,
+      "endHour": 9.5,
+      "day": 4
+    },
+    {
+      "id": 10,
+      "subject": "Siguria e të Dhënave",
+      "kodi": "CS-33",
+      "professor": "Prof. Artan Berisha",
+      "ta": "TA. Nora Sejdiu",
+      "room": "Lab M",
+      "type": "lab",
+      "color": "#34C759",
+      "bg": "#EDFAF1",
+      "darkColor": "#32D74B",
+      "darkBg": "rgba(50, 215, 75, 0.2)",
+      "startHour": 11,
+      "endHour": 12.5,
+      "day": 4
+    }
+  ],
+  "paymentHistory": [
+    {
+      "id": "h1",
+      "label": "Certifikatë e notave",
+      "amount": 2.5,
+      "date": "15 Mars 2026",
+      "method": "card",
+      "status": "paid"
+    },
+    {
+      "id": "h2",
+      "label": "Kartelë e humbur/dëmtuar",
+      "amount": 3,
+      "date": "20 Janar 2026",
+      "method": "paypal",
+      "status": "paid"
+    },
+    {
+      "id": "h3",
+      "label": "Regjistrim në kursin QEQ",
+      "amount": 25,
+      "date": "10 Shtator 2025",
+      "method": "card",
+      "status": "paid"
+    },
+    {
+      "id": "h4",
+      "label": "Indeks duplikat",
+      "amount": 5,
+      "date": "02 Qershor 2025",
+      "method": "google",
+      "status": "paid"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "emri": "Teoria e Gjasës",
+      "profesor": "Prof. Bujar Fejzullahu",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 5,
+      "color": "#007AFF",
+      "darkColor": "#0A84FF",
+      "progress": 65,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 2,
+      "emri": "UX/UI Design",
+      "profesor": "Prof. Korab Rrmoku",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 5,
+      "color": "#FF2D55",
+      "darkColor": "#FF375F",
+      "progress": 70,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 3,
+      "emri": "Siguria e të Dhënave",
+      "profesor": "Prof. Artan Berisha",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 5,
+      "color": "#34C759",
+      "darkColor": "#32D74B",
+      "progress": 60,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 4,
+      "emri": "OOP / GUI",
+      "profesor": "Prof. Faton Berisha",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 5,
+      "color": "#5856D6",
+      "darkColor": "#5E5CE6",
+      "progress": 75,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 5,
+      "emri": "Inteligjenca Artificiale",
+      "profesor": "Prof. Eliot Bytyçi",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 5,
+      "color": "#FF9500",
+      "darkColor": "#FF9F0A",
+      "progress": 68,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 6,
+      "emri": "Inxhinieria e Softuerit",
+      "profesor": "Prof. Artan Berisha",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 2,
+      "nota": 9,
+      "semestri": "Vjeshtor 2024/25",
+      "semNum": 4,
+      "color": "#007AFF",
+      "darkColor": "#0A84FF",
+      "progress": 100,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 7,
+      "emri": "Siguria në Internet",
+      "profesor": "Prof. Artan Berisha",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 2,
+      "nota": 10,
+      "semestri": "Vjeshtor 2024/25",
+      "semNum": 4,
+      "color": "#34C759",
+      "darkColor": "#32D74B",
+      "progress": 100,
+      "lloji": "Zgjedhore"
+    },
+    {
+      "id": 8,
+      "emri": "Zhvillimi në Web",
+      "profesor": "Prof. Korab Rrmoku",
+      "ects": 6,
+      "oreLigjerate": 2,
+      "oreUshtrime": 2,
+      "nota": 9,
+      "semestri": "Pranveror 2024/25",
+      "semNum": 3,
+      "color": "#FF2D55",
+      "darkColor": "#FF375F",
+      "progress": 100,
+      "lloji": "Zgjedhore"
+    },
+    {
+      "id": 9,
+      "emri": "Sistemet Operative",
+      "profesor": "Prof. Korab Rrmoku",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 8,
+      "semestri": "Vjeshtor 2023/24",
+      "semNum": 2,
+      "color": "#5856D6",
+      "darkColor": "#5E5CE6",
+      "progress": 100,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 10,
+      "emri": "Rrjetat Kompjuterike",
+      "profesor": "Prof. Korab Rrmoku",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 2,
+      "nota": 9,
+      "semestri": "Vjeshtor 2023/24",
+      "semNum": 2,
+      "color": "#AF52DE",
+      "darkColor": "#BF5AF2",
+      "progress": 100,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 11,
+      "emri": "Algoritmet dhe Str. e Dhënave",
+      "profesor": "Prof. Eliot Bytyçi",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 2,
+      "nota": 9,
+      "semestri": "Vjeshtor 2023/24",
+      "semNum": 2,
+      "color": "#007AFF",
+      "darkColor": "#0A84FF",
+      "progress": 100,
+      "lloji": "Obligative"
+    }
+  ],
+  "examCourses": [
+    {
+      "id": 101,
+      "emri": "Teoria e Gjasës",
+      "profesor": "Prof. Bujar Fejzullahu",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 4,
+      "color": "#007AFF",
+      "darkColor": "#0A84FF",
+      "progress": 0,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 102,
+      "emri": "UX/UI Design",
+      "profesor": "Prof. Korab Rrmoku",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 4,
+      "color": "#FF2D55",
+      "darkColor": "#FF375F",
+      "progress": 0,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 103,
+      "emri": "Siguria e të Dhënave",
+      "profesor": "Prof. Artan Berisha",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 4,
+      "color": "#34C759",
+      "darkColor": "#32D74B",
+      "progress": 0,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 104,
+      "emri": "OOP / GUI",
+      "profesor": "Prof. Faton Berisha",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 4,
+      "color": "#5856D6",
+      "darkColor": "#5E5CE6",
+      "progress": 0,
+      "lloji": "Obligative"
+    },
+    {
+      "id": 105,
+      "emri": "Inteligjenca Artificiale",
+      "profesor": "Prof. Eliot Bytyçi",
+      "ects": 6,
+      "oreLigjerate": 3,
+      "oreUshtrime": 1,
+      "nota": 0,
+      "semestri": "Pranveror 2025/26",
+      "semNum": 4,
+      "color": "#FF9500",
+      "darkColor": "#FF9F0A",
+      "progress": 0,
+      "lloji": "Zgjedhore"
+    }
+  ],
+  "consultationProfessors": [
+    {
+      "name": "Prof. Bujar Fejzullahu",
+      "subject": "Teoria e Gjasës",
+      "time": "E hënë, 13:00 – 14:30",
+      "room": "Zyra 211",
+      "dayOfWeek": "E hënë",
+      "slots": [
+        "13:00",
+        "13:15",
+        "13:30",
+        "13:45",
+        "14:00",
+        "14:15"
+      ]
+    },
+    {
+      "name": "Prof. Korab Rrmoku",
+      "subject": "UX/UI Design",
+      "time": "E martë, 10:00 – 12:00",
+      "room": "Zyra 305",
+      "dayOfWeek": "E martë",
+      "slots": [
+        "10:00",
+        "10:15",
+        "10:30",
+        "10:45",
+        "11:00",
+        "11:15",
+        "11:30",
+        "11:45"
+      ]
+    },
+    {
+      "name": "Prof. Artan Berisha",
+      "subject": "Siguria e të Dhënave",
+      "time": "E mërkurë, 14:00 – 15:30",
+      "room": "Zyra 412",
+      "dayOfWeek": "E mërkurë",
+      "slots": [
+        "14:00",
+        "14:15",
+        "14:30",
+        "14:45",
+        "15:00",
+        "15:15"
+      ]
+    },
+    {
+      "name": "Prof. Faton Berisha",
+      "subject": "OOP / GUI",
+      "time": "E enjte, 11:00 – 12:30",
+      "room": "Zyra 317",
+      "dayOfWeek": "E enjte",
+      "slots": [
+        "11:00",
+        "11:15",
+        "11:30",
+        "11:45",
+        "12:00",
+        "12:15"
+      ]
+    },
+    {
+      "name": "Prof. Eliot Bytyçi",
+      "subject": "Inteligjenca Artificiale",
+      "time": "E premte, 10:00 – 11:30",
+      "room": "Zyra 208",
+      "dayOfWeek": "E premte",
+      "slots": [
+        "10:00",
+        "10:15",
+        "10:30",
+        "10:45",
+        "11:00",
+        "11:15"
+      ]
+    }
+  ],
+  "bookedSlots": {
+    "Prof. Bujar Fejzullahu": [
+      "13:15",
+      "13:45"
+    ],
+    "Prof. Korab Rrmoku": [
+      "10:30",
+      "11:15"
+    ],
+    "Prof. Artan Berisha": [],
+    "Prof. Faton Berisha": [
+      "11:00"
+    ],
+    "Prof. Eliot Bytyçi": [
+      "10:15",
+      "10:45"
+    ]
+  },
+  "attendanceSemesters": [
+    "Semestri 1 - 2023/2024",
+    "Semestri 2 - 2023/2024",
+    "Semestri 3 - 2024/2025",
+    "Semestri 4 - 2024/2025",
+    "Semestri 5 - 2025/2026",
+    "Semestri 6 - 2025/2026"
+  ],
+  "attendanceCourses": [
+    "Të gjitha lëndët",
+    "Teoria e Gjasës",
+    "UX/UI Design",
+    "Siguria e të Dhënave",
+    "OOP / GUI",
+    "Inteligjenca Artificiale"
+  ],
+  "attendanceSummary": [
+    {
+      "nr": 1,
+      "kodi": "O-31",
+      "lenda": "Teoria e Gjasës",
+      "prof": "Prof. Bujar Fejzullahu",
+      "gjithsej": 30,
+      "pranishem": 27,
+      "munguar": 3,
+      "perqindja": 90
+    },
+    {
+      "nr": 2,
+      "kodi": "O-32",
+      "lenda": "UX/UI Design",
+      "prof": "Prof. Korab Rrmoku",
+      "gjithsej": 28,
+      "pranishem": 25,
+      "munguar": 3,
+      "perqindja": 89
+    },
+    {
+      "nr": 3,
+      "kodi": "O-33",
+      "lenda": "Siguria e të Dhënave",
+      "prof": "Prof. Artan Berisha",
+      "gjithsej": 28,
+      "pranishem": 26,
+      "munguar": 2,
+      "perqindja": 93
+    },
+    {
+      "nr": 4,
+      "kodi": "O-34",
+      "lenda": "OOP / GUI",
+      "prof": "Prof. Faton Berisha",
+      "gjithsej": 30,
+      "pranishem": 28,
+      "munguar": 2,
+      "perqindja": 93
+    },
+    {
+      "nr": 5,
+      "kodi": "O-35",
+      "lenda": "Inteligjenca Artificiale",
+      "prof": "Prof. Eliot Bytyçi",
+      "gjithsej": 26,
+      "pranishem": 23,
+      "munguar": 3,
+      "perqindja": 88
+    }
+  ],
+  "attendanceLogs": {
+    "UX/UI Design": [
+      {
+        "nr": 1,
+        "data": "24.02.2026",
+        "dita": "E martë",
+        "lenda": "UX/UI Design",
+        "profAsist": "Prof. Korab Rrmoku",
+        "lloji": "L",
+        "checkIn": "10:02",
+        "checkOut": "11:28",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 2,
+        "data": "26.02.2026",
+        "dita": "E enjte",
+        "lenda": "UX/UI Design",
+        "profAsist": "TA. Hekuran Kastrati",
+        "lloji": "U",
+        "checkIn": "10:00",
+        "checkOut": "11:30",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 3,
+        "data": "03.03.2026",
+        "dita": "E martë",
+        "lenda": "UX/UI Design",
+        "profAsist": "Prof. Korab Rrmoku",
+        "lloji": "L",
+        "checkIn": "09:58",
+        "checkOut": "11:32",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 4,
+        "data": "05.03.2026",
+        "dita": "E enjte",
+        "lenda": "UX/UI Design",
+        "profAsist": "TA. Hekuran Kastrati",
+        "lloji": "U",
+        "checkIn": "10:03",
+        "checkOut": "11:27",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 5,
+        "data": "10.03.2026",
+        "dita": "E martë",
+        "lenda": "UX/UI Design",
+        "profAsist": "Prof. Korab Rrmoku",
+        "lloji": "L",
+        "checkIn": "—",
+        "checkOut": "—",
+        "salla": "Salla 153",
+        "statusi": "Mungesë"
+      },
+      {
+        "nr": 6,
+        "data": "12.03.2026",
+        "dita": "E enjte",
+        "lenda": "UX/UI Design",
+        "profAsist": "TA. Hekuran Kastrati",
+        "lloji": "U",
+        "checkIn": "10:01",
+        "checkOut": "11:29",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 7,
+        "data": "17.03.2026",
+        "dita": "E martë",
+        "lenda": "UX/UI Design",
+        "profAsist": "Prof. Korab Rrmoku",
+        "lloji": "L",
+        "checkIn": "10:04",
+        "checkOut": "11:25",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 8,
+        "data": "19.03.2026",
+        "dita": "E enjte",
+        "lenda": "UX/UI Design",
+        "profAsist": "TA. Hekuran Kastrati",
+        "lloji": "U",
+        "checkIn": "10:00",
+        "checkOut": "11:30",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 9,
+        "data": "24.03.2026",
+        "dita": "E martë",
+        "lenda": "UX/UI Design",
+        "profAsist": "Prof. Korab Rrmoku",
+        "lloji": "L",
+        "checkIn": "10:02",
+        "checkOut": "11:28",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 10,
+        "data": "26.03.2026",
+        "dita": "E enjte",
+        "lenda": "UX/UI Design",
+        "profAsist": "TA. Hekuran Kastrati",
+        "lloji": "U",
+        "checkIn": "10:05",
+        "checkOut": "Nuk ka dalje",
+        "salla": "Salla 153",
+        "statusi": "Pjesërisht"
+      },
+      {
+        "nr": 11,
+        "data": "31.03.2026",
+        "dita": "E martë",
+        "lenda": "UX/UI Design",
+        "profAsist": "Prof. Korab Rrmoku",
+        "lloji": "L",
+        "checkIn": "09:59",
+        "checkOut": "11:31",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 12,
+        "data": "02.04.2026",
+        "dita": "E enjte",
+        "lenda": "UX/UI Design",
+        "profAsist": "TA. Hekuran Kastrati",
+        "lloji": "U",
+        "checkIn": "10:03",
+        "checkOut": "11:26",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 13,
+        "data": "07.04.2026",
+        "dita": "E martë",
+        "lenda": "UX/UI Design",
+        "profAsist": "Prof. Korab Rrmoku",
+        "lloji": "L",
+        "checkIn": "10:01",
+        "checkOut": "11:34",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 14,
+        "data": "09.04.2026",
+        "dita": "E enjte",
+        "lenda": "UX/UI Design",
+        "profAsist": "TA. Hekuran Kastrati",
+        "lloji": "U",
+        "checkIn": "—",
+        "checkOut": "—",
+        "salla": "Salla 153",
+        "statusi": "Mungesë"
+      },
+      {
+        "nr": 15,
+        "data": "14.04.2026",
+        "dita": "E martë",
+        "lenda": "UX/UI Design",
+        "profAsist": "Prof. Korab Rrmoku",
+        "lloji": "L",
+        "checkIn": "10:00",
+        "checkOut": "11:35",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      }
+    ],
+    "Siguria e të Dhënave": [
+      {
+        "nr": 1,
+        "data": "24.02.2026",
+        "dita": "E martë",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "Prof. Artan Berisha",
+        "lloji": "L",
+        "checkIn": "10:02",
+        "checkOut": "11:28",
+        "salla": "Salla 113",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 2,
+        "data": "26.02.2026",
+        "dita": "E enjte",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "TA. Nora Sejdiu",
+        "lloji": "U",
+        "checkIn": "12:00",
+        "checkOut": "13:30",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 3,
+        "data": "03.03.2026",
+        "dita": "E martë",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "Prof. Artan Berisha",
+        "lloji": "L",
+        "checkIn": "10:01",
+        "checkOut": "11:30",
+        "salla": "Salla 113",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 4,
+        "data": "05.03.2026",
+        "dita": "E enjte",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "TA. Nora Sejdiu",
+        "lloji": "Lab",
+        "checkIn": "12:03",
+        "checkOut": "13:29",
+        "salla": "Lab M",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 5,
+        "data": "10.03.2026",
+        "dita": "E martë",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "Prof. Artan Berisha",
+        "lloji": "L",
+        "checkIn": "—",
+        "checkOut": "—",
+        "salla": "Salla 113",
+        "statusi": "Mungesë"
+      },
+      {
+        "nr": 6,
+        "data": "12.03.2026",
+        "dita": "E enjte",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "TA. Nora Sejdiu",
+        "lloji": "U",
+        "checkIn": "12:05",
+        "checkOut": "13:25",
+        "salla": "Salla 153",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 7,
+        "data": "17.03.2026",
+        "dita": "E martë",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "Prof. Artan Berisha",
+        "lloji": "L",
+        "checkIn": "10:04",
+        "checkOut": "11:27",
+        "salla": "Salla 113",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 8,
+        "data": "19.03.2026",
+        "dita": "E enjte",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "TA. Nora Sejdiu",
+        "lloji": "Lab",
+        "checkIn": "12:01",
+        "checkOut": "13:30",
+        "salla": "Lab M",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 9,
+        "data": "24.03.2026",
+        "dita": "E martë",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "Prof. Artan Berisha",
+        "lloji": "L",
+        "checkIn": "10:02",
+        "checkOut": "11:28",
+        "salla": "Salla 113",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 10,
+        "data": "26.03.2026",
+        "dita": "E enjte",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "TA. Nora Sejdiu",
+        "lloji": "U",
+        "checkIn": "12:00",
+        "checkOut": "Nuk ka dalje",
+        "salla": "Salla 153",
+        "statusi": "Pjesërisht"
+      },
+      {
+        "nr": 11,
+        "data": "31.03.2026",
+        "dita": "E martë",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "Prof. Artan Berisha",
+        "lloji": "L",
+        "checkIn": "10:00",
+        "checkOut": "11:30",
+        "salla": "Salla 113",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 12,
+        "data": "02.04.2026",
+        "dita": "E enjte",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "TA. Nora Sejdiu",
+        "lloji": "Lab",
+        "checkIn": "12:02",
+        "checkOut": "13:28",
+        "salla": "Lab M",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 13,
+        "data": "07.04.2026",
+        "dita": "E martë",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "Prof. Artan Berisha",
+        "lloji": "L",
+        "checkIn": "10:03",
+        "checkOut": "11:29",
+        "salla": "Salla 113",
+        "statusi": "Prezent"
+      },
+      {
+        "nr": 14,
+        "data": "09.04.2026",
+        "dita": "E enjte",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "TA. Nora Sejdiu",
+        "lloji": "U",
+        "checkIn": "—",
+        "checkOut": "—",
+        "salla": "Salla 153",
+        "statusi": "Mungesë"
+      },
+      {
+        "nr": 15,
+        "data": "14.04.2026",
+        "dita": "E martë",
+        "lenda": "Siguria e të Dhënave",
+        "profAsist": "Prof. Artan Berisha",
+        "lloji": "L",
+        "checkIn": "10:01",
+        "checkOut": "11:30",
+        "salla": "Salla 113",
+        "statusi": "Prezent"
+      }
+    ]
+  }
+}

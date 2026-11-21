@@ -1,0 +1,22 @@
+[
+  {
+    "id": "KSL-001",
+    "prof": "Prof. Korab Rrmoku",
+    "subject": "UX/UI Design",
+    "date": "27.05.2026",
+    "slot": "10:00",
+    "room": "Zyra 305",
+    "status": "Aprovuar",
+    "studentId": "111"
+  },
+  {
+    "id": "KSL-002",
+    "prof": "Prof. Artan Berisha",
+    "subject": "Siguria e të Dhënave",
+    "date": "28.05.2026",
+    "slot": "14:15",
+    "room": "Zyra 412",
+    "status": "Në pritje",
+    "studentId": "111"
+  }
+]

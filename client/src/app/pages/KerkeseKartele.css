@@ -1,0 +1,701 @@
+/* KerkeseKartele styles */
+
+.kerkese-kartele-row {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-100);
+  padding-inline: 1rem;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.dark .kerkese-kartele-row {
+  background-color: #000;
+}
+
+.kerkese-kartele-card {
+  width: 100%;
+  max-width: 28rem;
+  border-radius: 1.5rem;
+  background-color: #FFF;
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
+}
+
+.dark .kerkese-kartele-card {
+  background-color: var(--gray-900);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.kerkese-kartele-avatar {
+  margin-inline: auto;
+  margin-bottom: 1.25rem;
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: rgba(52, 199, 89, 0.1);
+}
+
+.dark .kerkese-kartele-avatar {
+  background-color: rgba(48, 209, 88, 0.15);
+}
+
+.kerkese-kartele-icon {
+  color: var(--green);
+}
+
+.dark .kerkese-kartele-icon {
+  color: var(--green-dark);
+}
+
+.kerkese-kartele-title {
+  margin-bottom: 0.5rem;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.dark .kerkese-kartele-title {
+  color: #FFF;
+}
+
+.kerkese-kartele-text {
+  margin-bottom: 0.25rem;
+  font-size: 15px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-kartele-text {
+  color: var(--gray-550);
+}
+
+.kerkese-kartele-text-2 {
+  margin-bottom: 1.5rem;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-kartele-text-2 {
+  color: var(--gray-550);
+}
+
+.kerkese-kartele-text-3 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.dark .kerkese-kartele-text-3 {
+  color: var(--blue-dark);
+}
+
+.kerkese-kartele-card-2 {
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  background-color: var(--gray-100);
+  padding: 1rem;
+  text-align: left;
+}
+
+:where(.kerkese-kartele-card-2 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 0.5rem;
+}
+
+.dark .kerkese-kartele-card-2 {
+  background-color: var(--gray-850);
+}
+
+.kerkese-kartele-row-2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.kerkese-kartele-text-4 {
+  color: var(--gray-500);
+}
+
+.dark .kerkese-kartele-text-4 {
+  color: var(--gray-550);
+}
+
+.kerkese-kartele-text-5 {
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .kerkese-kartele-text-5 {
+  color: #FFF;
+}
+
+.kerkese-kartele-text-6 {
+  font-weight: 500;
+  color: var(--orange);
+}
+
+.dark .kerkese-kartele-text-6 {
+  color: var(--orange-dark);
+}
+
+.kerkese-kartele-btn {
+  height: 2.75rem;
+  width: 100%;
+  border-radius: var(--radius-xl);
+  background-color: var(--blue);
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFF;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-kartele-btn:hover {
+  opacity: 90%;
+}
+
+.dark .kerkese-kartele-btn {
+  background-color: var(--blue-dark);
+}
+
+.kerkese-kartele-box {
+  min-height: 100vh;
+  background-color: var(--gray-100);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.dark .kerkese-kartele-box {
+  background-color: #000;
+}
+
+.kerkese-kartele-box-2 {
+  padding-inline: 1rem;
+  padding-block: 2rem;
+}
+
+.kerkese-kartele-text-7 {
+  margin-bottom: 1.5rem;
+}
+
+.kerkese-kartele-row-3 {
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.kerkese-kartele-icon-box {
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  background-color: rgba(0, 122, 255, 0.1);
+}
+
+.dark .kerkese-kartele-icon-box {
+  background-color: rgba(10, 132, 255, 0.15);
+}
+
+.kerkese-kartele-icon-2 {
+  color: var(--blue);
+}
+
+.dark .kerkese-kartele-icon-2 {
+  color: var(--blue-dark);
+}
+
+.kerkese-kartele-title-2 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--gray-900);
+}
+
+.dark .kerkese-kartele-title-2 {
+  color: #FFF;
+}
+
+.kerkese-kartele-text-8 {
+  margin-left: 52px;
+  font-size: 15px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-kartele-text-8 {
+  color: var(--gray-550);
+}
+
+.kerkese-kartele-card-3 {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 122, 255, 0.2);
+  background-color: rgba(0, 122, 255, 0.08);
+  padding-inline: 1rem;
+  padding-block: 0.875rem;
+}
+
+.dark .kerkese-kartele-card-3 {
+  border-color: rgba(10, 132, 255, 0.25);
+  background-color: rgba(10, 132, 255, 0.12);
+}
+
+.kerkese-kartele-icon-3 {
+  margin-top: 0.125rem;
+  flex-shrink: 0;
+  color: var(--blue);
+}
+
+.dark .kerkese-kartele-icon-3 {
+  color: var(--blue-dark);
+}
+
+.kerkese-kartele-text-9 {
+  font-size: 13px;
+  color: var(--blue);
+}
+
+.dark .kerkese-kartele-text-9 {
+  color: var(--blue-dark);
+}
+
+:where(.kerkese-kartele-form > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+}
+
+.kerkese-kartele-box-3 {
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: #FFF;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.dark .kerkese-kartele-box-3 {
+  background-color: var(--gray-900);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.kerkese-kartele-box-4 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-200);
+  padding-inline: 1.25rem;
+  padding-block: 0.875rem;
+}
+
+.dark .kerkese-kartele-box-4 {
+  border-color: var(--gray-800);
+}
+
+.kerkese-kartele-text-10 {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--gray-500);
+  text-transform: uppercase;
+}
+
+.dark .kerkese-kartele-text-10 {
+  color: var(--gray-550);
+}
+
+:where(.kerkese-kartele-box-5 > :not(:last-child)) {
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-top-width: 0;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+}
+
+.dark :where(.kerkese-kartele-box-5 > :not(:last-child)) {
+  border-color: var(--gray-850);
+}
+
+.kerkese-kartele-row-4 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-inline: 1.25rem;
+  padding-block: 0.875rem;
+}
+
+.kerkese-kartele-icon-4 {
+  flex-shrink: 0;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-kartele-icon-4 {
+  color: var(--gray-550);
+}
+
+.kerkese-kartele-text-11 {
+  width: 9rem;
+  flex-shrink: 0;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-kartele-text-11 {
+  color: var(--gray-550);
+}
+
+.kerkese-kartele-text-12 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .kerkese-kartele-text-12 {
+  color: #FFF;
+}
+
+.kerkese-kartele-box-6 {
+  padding: 1.25rem;
+}
+
+:where(.kerkese-kartele-box-6 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+}
+
+.kerkese-kartele-label {
+  margin-bottom: 0.375rem;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.dark .kerkese-kartele-label {
+  color: var(--gray-150);
+}
+
+.kerkese-kartele-text-13 {
+  color: var(--red);
+}
+
+.kerkese-kartele-box-7 {
+  position: relative;
+}
+
+.kerkese-kartele-btn-2 {
+  display: flex;
+  height: 2.75rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  padding-inline: 1rem;
+  font-size: 14px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-kartele-icon-5 {
+  transition-property: transform, translate, scale, rotate;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-kartele-popup {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  margin-top: 0.25rem;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.dark .kerkese-kartele-popup {
+  border-color: var(--gray-800);
+  background-color: var(--gray-850);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.kerkese-kartele-btn-5 {
+  width: 100%;
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  text-align: left;
+  font-size: 14px;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-kartele-btn-5:hover {
+  background-color: var(--gray-100);
+}
+
+.dark .kerkese-kartele-btn-5:hover {
+  background-color: var(--gray-750);
+}
+
+.kerkese-kartele-textarea {
+  width: 100%;
+  resize: none;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: var(--gray-100);
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  font-size: 14px;
+  color: var(--gray-900);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  outline-style: none;
+}
+
+.kerkese-kartele-textarea::placeholder {
+  color: var(--gray-500);
+}
+
+.kerkese-kartele-textarea:focus {
+  border-color: var(--blue);
+  background-color: #FFF;
+}
+
+.dark .kerkese-kartele-textarea {
+  border-color: var(--gray-800);
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kerkese-kartele-textarea::placeholder {
+  color: var(--gray-550);
+}
+
+.dark .kerkese-kartele-textarea:focus {
+  border-color: var(--blue-dark);
+  background-color: var(--gray-850);
+}
+
+.kerkese-kartele-icon-7 {
+  position: absolute;
+  top: 50%;
+  left: 0.875rem;
+  translate: 0 -50%;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-kartele-icon-7 {
+  color: var(--gray-550);
+}
+
+.kerkese-kartele-input {
+  height: 2.75rem;
+  width: 100%;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: var(--gray-100);
+  padding-right: 1rem;
+  padding-left: 2.25rem;
+  font-size: 14px;
+  color: var(--gray-900);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  outline-style: none;
+}
+
+.kerkese-kartele-input::placeholder {
+  color: var(--gray-500);
+}
+
+.kerkese-kartele-input:focus {
+  border-color: var(--blue);
+  background-color: #FFF;
+}
+
+.dark .kerkese-kartele-input {
+  border-color: var(--gray-800);
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.dark .kerkese-kartele-input::placeholder {
+  color: var(--gray-550);
+}
+
+.dark .kerkese-kartele-input:focus {
+  border-color: var(--blue-dark);
+  background-color: var(--gray-850);
+}
+
+.kerkese-kartele-label-2 {
+  display: flex;
+  height: 6rem;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  border-width: 2px;
+  border-style: dashed;
+  border-color: var(--gray-200);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-kartele-label-2:hover {
+  border-color: var(--blue);
+  background-color: var(--gray-100);
+}
+
+.dark .kerkese-kartele-label-2 {
+  border-color: var(--gray-800);
+}
+
+.dark .kerkese-kartele-label-2:hover {
+  border-color: var(--blue-dark);
+  background-color: var(--gray-850);
+}
+
+.kerkese-kartele-text-14 {
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.dark .kerkese-kartele-text-14 {
+  color: var(--gray-550);
+}
+
+.kerkese-kartele-input-2 {
+  display: none;
+}
+
+.kerkese-kartele-btn-8 {
+  display: flex;
+  height: 3rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  background-color: var(--blue);
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.kerkese-kartele-btn-8:hover {
+  opacity: 90%;
+}
+
+.kerkese-kartele-btn-8:active {
+  scale: 0.98;
+}
+
+.kerkese-kartele-btn-8:disabled {
+  opacity: 40%;
+}
+
+.dark .kerkese-kartele-btn-8 {
+  background-color: var(--blue-dark);
+}
+
+.kerkese-kartele-svg {
+  height: 1.25rem;
+  width: 1.25rem;
+  animation: spin 1s linear infinite;
+  color: #FFF;
+}
+
+.kerkese-kartele-ring {
+  opacity: 25%;
+}
+
+.kerkese-kartele-path {
+  opacity: 75%;
+}
+
+.kerkese-kartele-btn-3 {
+  border-color: var(--blue);
+  background-color: #FFF;
+  color: var(--gray-900);
+}
+
+.dark .kerkese-kartele-btn-3 {
+  border-color: var(--blue-dark);
+  background-color: var(--gray-850);
+  color: #FFF;
+}
+
+.kerkese-kartele-btn-4 {
+  border-color: var(--gray-200);
+  background-color: var(--gray-100);
+  color: var(--gray-500);
+}
+
+.dark .kerkese-kartele-btn-4 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-850);
+  color: var(--gray-550);
+}
+
+.kerkese-kartele-icon-6 {
+  rotate: 180deg;
+}
+
+.kerkese-kartele-btn-6 {
+  background-color: var(--blue-soft);
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.dark .kerkese-kartele-btn-6 {
+  background-color: rgba(10, 132, 255, 0.1);
+  color: var(--blue-dark);
+}
+
+.kerkese-kartele-btn-7 {
+  color: var(--gray-900);
+}
+
+.dark .kerkese-kartele-btn-7 {
+  color: #FFF;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 640px) {
+  .kerkese-kartele-box-2 {
+    padding-inline: 1.5rem;
+  }
+}

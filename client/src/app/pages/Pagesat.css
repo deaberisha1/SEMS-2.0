@@ -1,0 +1,1363 @@
+/* Pagesat styles */
+
+.pagesat-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  background-color: rgba(52, 199, 89, 0.12);
+  padding-inline: 0.5rem;
+  padding-block: 0.125rem;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.dark .pagesat-badge {
+  background-color: rgba(48, 209, 88, 0.15);
+  color: var(--green-dark);
+}
+
+.pagesat-badge-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  background-color: rgba(255, 149, 0, 0.12);
+  padding-inline: 0.5rem;
+  padding-block: 0.125rem;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--orange);
+}
+
+.dark .pagesat-badge-2 {
+  background-color: rgba(255, 159, 10, 0.15);
+  color: var(--orange-dark);
+}
+
+.pagesat-badge-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 9999px;
+  background-color: rgba(255, 59, 48, 0.12);
+  padding-inline: 0.5rem;
+  padding-block: 0.125rem;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--red);
+}
+
+.dark .pagesat-badge-3 {
+  background-color: rgba(255, 69, 58, 0.15);
+  color: var(--red-dark);
+}
+
+.pagesat-icon {
+  color: var(--gray-500);
+}
+
+.pagesat-box {
+  padding: 1rem;
+}
+
+.pagesat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.dark .pagesat-card {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  box-shadow: none;
+}
+
+.pagesat-avatar {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: rgba(52, 199, 89, 0.12);
+}
+
+.dark .pagesat-avatar {
+  background-color: rgba(48, 209, 88, 0.15);
+}
+
+.pagesat-icon-2 {
+  color: var(--green);
+}
+
+.dark .pagesat-icon-2 {
+  color: var(--green-dark);
+}
+
+.pagesat-title {
+  margin-bottom: 0.25rem;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-title {
+  color: #FFF;
+}
+
+.pagesat-text {
+  font-size: 14px;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text {
+  color: var(--gray-600);
+}
+
+.pagesat-card-2 {
+  width: 100%;
+  border-radius: 1rem;
+  background-color: var(--gray-100);
+  padding: 1.25rem;
+  text-align: left;
+}
+
+:where(.pagesat-card-2 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 0.75rem;
+}
+
+.dark .pagesat-card-2 {
+  background-color: var(--gray-850);
+}
+
+.pagesat-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.pagesat-text-2 {
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-2 {
+  color: var(--gray-600);
+}
+
+.pagesat-text-3 {
+  text-align: right;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-text-3 {
+  color: #FFF;
+}
+
+.pagesat-card-3 {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  background-color: rgba(0, 122, 255, 0.06);
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+}
+
+.dark .pagesat-card-3 {
+  background-color: rgba(10, 132, 255, 0.1);
+}
+
+.pagesat-icon-3 {
+  margin-top: 0.125rem;
+  flex-shrink: 0;
+  color: var(--blue);
+}
+
+.dark .pagesat-icon-3 {
+  color: var(--blue-dark);
+}
+
+.pagesat-text-4 {
+  text-align: left;
+  font-size: 12px;
+  color: var(--blue);
+}
+
+.dark .pagesat-text-4 {
+  color: var(--blue-dark);
+}
+
+.pagesat-row-2 {
+  display: flex;
+  width: 100%;
+  gap: 0.75rem;
+}
+
+.pagesat-btn {
+  display: flex;
+  height: 2.75rem;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--blue);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--blue);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagesat-btn:hover {
+  background-color: rgba(0, 122, 255, 0.05);
+}
+
+.dark .pagesat-btn {
+  border-color: var(--blue-dark);
+  color: var(--blue-dark);
+}
+
+.dark .pagesat-btn:hover {
+  background-color: rgba(10, 132, 255, 0.1);
+}
+
+.pagesat-btn-2 {
+  display: flex;
+  height: 2.75rem;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  background-color: var(--blue);
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFF;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagesat-btn-2:hover {
+  background-color: #0066CC;
+}
+
+.dark .pagesat-btn-2 {
+  background-color: var(--blue-dark);
+}
+
+.dark .pagesat-btn-2:hover {
+  background-color: #0074E8;
+}
+
+.pagesat-box-2 {
+  padding: 1rem;
+}
+
+:where(.pagesat-box-2 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1.5rem;
+}
+
+.dark .pagesat-box-2 {
+  background-color: transparent;
+}
+
+.pagesat-title-2 {
+  margin-bottom: 0.25rem;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-title-2 {
+  color: #FFF;
+}
+
+.pagesat-text-5 {
+  font-size: 15px;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-5 {
+  color: var(--gray-550);
+}
+
+.pagesat-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+:where(.pagesat-box-3 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+}
+
+.pagesat-box-4 {
+  position: relative;
+  z-index: 20;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.dark .pagesat-box-4 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  box-shadow: none;
+}
+
+.pagesat-row-3 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+  padding-inline: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.dark .pagesat-row-3 {
+  border-color: var(--gray-850);
+}
+
+.pagesat-dot {
+  display: flex;
+  height: 1.75rem;
+  width: 1.75rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: var(--blue);
+  font-size: 13px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.dark .pagesat-dot {
+  background-color: var(--blue-dark);
+}
+
+.pagesat-title-3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-title-3 {
+  color: #FFF;
+}
+
+.pagesat-text-6 {
+  margin-top: 0.125rem;
+  font-size: 12px;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-6 {
+  color: var(--gray-600);
+}
+
+.pagesat-box-5 {
+  padding: 1.25rem;
+}
+
+:where(.pagesat-box-5 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+}
+
+.pagesat-box-6 {
+  position: relative;
+}
+
+.pagesat-btn-3 {
+  display: flex;
+  height: 52px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 2px;
+  background-color: var(--gray-100);
+  padding-inline: 1rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.dark .pagesat-btn-3 {
+  background-color: var(--gray-850);
+}
+
+.pagesat-text-7 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.pagesat-text-9 {
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-9 {
+  color: var(--gray-600);
+}
+
+.pagesat-icon-4 {
+  flex-shrink: 0;
+  color: var(--gray-500);
+  transition-property: transform, translate, scale, rotate;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagesat-popup {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.dark .pagesat-popup {
+  border-color: var(--gray-700);
+  background-color: var(--gray-900);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.pagesat-box-7 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+  padding: 0.75rem;
+}
+
+.dark .pagesat-box-7 {
+  border-color: var(--gray-850);
+}
+
+.pagesat-card-4 {
+  display: flex;
+  height: 2.25rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  background-color: var(--gray-100);
+  padding-inline: 0.75rem;
+}
+
+.dark .pagesat-card-4 {
+  background-color: var(--gray-850);
+}
+
+.pagesat-icon-6 {
+  flex-shrink: 0;
+  color: var(--gray-500);
+}
+
+.pagesat-input {
+  flex: 1;
+  background-color: transparent;
+  font-size: 14px;
+  color: var(--gray-900);
+  outline-style: none;
+}
+
+.pagesat-input::placeholder {
+  color: var(--gray-500);
+}
+
+.dark .pagesat-input {
+  color: #FFF;
+}
+
+.pagesat-btn-6 {
+  color: var(--gray-500);
+}
+
+.pagesat-btn-6:hover {
+  color: var(--gray-900);
+}
+
+.dark .pagesat-btn-6:hover {
+  color: #FFF;
+}
+
+.pagesat-scroll {
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.pagesat-text-10 {
+  padding-inline: 1rem;
+  padding-block: 1.5rem;
+  text-align: center;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-10 {
+  color: var(--gray-600);
+}
+
+.pagesat-btn-7 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  text-align: left;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagesat-btn-7:last-child {
+  border-style: solid;
+  border-width: 0;
+}
+
+.pagesat-btn-7:hover {
+  background-color: var(--gray-100);
+}
+
+.dark .pagesat-btn-7 {
+  border-color: var(--gray-850);
+}
+
+.dark .pagesat-btn-7:hover {
+  background-color: var(--gray-850);
+}
+
+.pagesat-text-11 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-text-11 {
+  color: #FFF;
+}
+
+.pagesat-text-12 {
+  margin-left: 1rem;
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.dark .pagesat-text-12 {
+  color: var(--blue-dark);
+}
+
+.pagesat-row-4 {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--gray-50);
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+}
+
+.dark .pagesat-row-4 {
+  background-color: #242426;
+}
+
+.pagesat-text-13 {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: var(--gray-500);
+  text-transform: uppercase;
+}
+
+.dark .pagesat-text-13 {
+  color: var(--gray-600);
+}
+
+.pagesat-card-5 {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 122, 255, 0.2);
+  background-color: rgba(0, 122, 255, 0.06);
+  padding: 1rem;
+}
+
+.dark .pagesat-card-5 {
+  border-color: rgba(10, 132, 255, 0.25);
+  background-color: rgba(10, 132, 255, 0.1);
+}
+
+.pagesat-icon-box {
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-xl);
+  background-color: rgba(0, 122, 255, 0.12);
+}
+
+.dark .pagesat-icon-box {
+  background-color: rgba(10, 132, 255, 0.2);
+}
+
+.pagesat-icon-7 {
+  color: var(--blue);
+}
+
+.dark .pagesat-icon-7 {
+  color: var(--blue-dark);
+}
+
+.pagesat-box-8 {
+  min-width: 0;
+  flex: 1;
+}
+
+.pagesat-row-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.pagesat-text-14 {
+  font-size: 14px;
+  line-height: 1.375;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-text-14 {
+  color: #FFF;
+}
+
+.pagesat-text-15 {
+  flex-shrink: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.dark .pagesat-text-15 {
+  color: var(--blue-dark);
+}
+
+.pagesat-text-16 {
+  margin-top: 0.25rem;
+  font-size: 12px;
+  line-height: 1.625;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-16 {
+  color: var(--gray-600);
+}
+
+.pagesat-box-9 {
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.dark .pagesat-box-9 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  box-shadow: none;
+}
+
+.pagesat-dot-2 {
+  display: flex;
+  height: 1.75rem;
+  width: 1.75rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 700;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagesat-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.pagesat-btn-9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 2px;
+  padding-inline: 0.75rem;
+  padding-block: 1.25rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagesat-text-19 {
+  color: #FFF;
+}
+
+.pagesat-text-20 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pagesat-text-21 {
+  font-size: 11px;
+}
+
+.pagesat-row-6 {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  padding-top: 0.25rem;
+}
+
+.pagesat-icon-8 {
+  margin-top: 0.125rem;
+  flex-shrink: 0;
+  color: var(--green);
+}
+
+.dark .pagesat-icon-8 {
+  color: var(--green-dark);
+}
+
+.pagesat-text-23 {
+  font-size: 11px;
+  line-height: 1.625;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-23 {
+  color: var(--gray-600);
+}
+
+.pagesat-box-11 {
+  padding-top: 0.25rem;
+  text-align: center;
+}
+
+.pagesat-btn-12 {
+  font-size: 12px;
+  color: var(--gray-500);
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagesat-btn-12:hover {
+  color: var(--blue);
+}
+
+.dark .pagesat-btn-12 {
+  color: var(--gray-600);
+}
+
+.dark .pagesat-btn-12:hover {
+  color: var(--blue-dark);
+}
+
+.pagesat-box-12 {
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.dark .pagesat-box-12 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  box-shadow: none;
+}
+
+.pagesat-box-13 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+  padding-inline: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.dark .pagesat-box-13 {
+  border-color: var(--gray-850);
+}
+
+:where(.pagesat-box-14 > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 0.75rem;
+}
+
+.pagesat-text-25 {
+  max-width: 160px;
+  text-align: right;
+  font-size: 13px;
+  line-height: 1.375;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-text-25 {
+  color: #FFF;
+}
+
+.pagesat-text-26 {
+  color: var(--gray-300);
+}
+
+.dark .pagesat-text-26 {
+  color: var(--gray-700);
+}
+
+.pagesat-row-7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.pagesat-text-27 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pagesat-text-28 {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-text-28 {
+  color: #FFF;
+}
+
+.pagesat-box-15 {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: var(--gray-100);
+  padding-top: 1rem;
+}
+
+.dark .pagesat-box-15 {
+  border-color: var(--gray-850);
+}
+
+.pagesat-row-8 {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagesat-text-29 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-text-29 {
+  color: #FFF;
+}
+
+.pagesat-text-30 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-text-30 {
+  color: #FFF;
+}
+
+.pagesat-btn-13 {
+  display: flex;
+  height: 52px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  background-color: var(--blue);
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagesat-btn-13:hover {
+  background-color: #0066CC;
+}
+
+.pagesat-btn-13:active {
+  scale: 0.98;
+}
+
+.pagesat-btn-13:disabled {
+  cursor: not-allowed;
+  opacity: 35%;
+}
+
+.dark .pagesat-btn-13 {
+  background-color: var(--blue-dark);
+}
+
+.dark .pagesat-btn-13:hover {
+  background-color: #0074E8;
+}
+
+.pagesat-text-31 {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 11px;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-31 {
+  color: var(--gray-600);
+}
+
+.pagesat-text-32 {
+  margin-top: 1rem;
+}
+
+.pagesat-title-4 {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-title-4 {
+  color: #FFF;
+}
+
+.pagesat-scroll-2 {
+  display: none;
+  overflow-x: auto;
+}
+
+.pagesat-table {
+  width: 100%;
+}
+
+.pagesat-row-9 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-200);
+}
+
+.dark .pagesat-row-9 {
+  border-color: var(--gray-800);
+}
+
+.pagesat-th {
+  padding-inline: 1.25rem;
+  padding-block: 0.75rem;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--gray-500);
+  text-transform: uppercase;
+}
+
+.dark .pagesat-th {
+  color: var(--gray-600);
+}
+
+.pagesat-row-10 {
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagesat-row-10:hover {
+  background-color: var(--gray-50);
+}
+
+.dark .pagesat-row-10:hover {
+  background-color: #242426;
+}
+
+.pagesat-cell {
+  padding-inline: 1.25rem;
+  padding-block: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-cell {
+  color: #FFF;
+}
+
+.pagesat-cell-2 {
+  padding-inline: 1.25rem;
+  padding-block: 1rem;
+  font-size: 13px;
+  white-space: nowrap;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-cell-2 {
+  color: var(--gray-600);
+}
+
+.pagesat-cell-3 {
+  padding-inline: 1.25rem;
+  padding-block: 1rem;
+}
+
+.pagesat-row-12 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pagesat-text-33 {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.dark .pagesat-text-33 {
+  color: var(--text-secondary-dark);
+}
+
+.pagesat-cell-4 {
+  padding-inline: 1.25rem;
+  padding-block: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-cell-4 {
+  color: #FFF;
+}
+
+.pagesat-cell-5 {
+  padding-inline: 1.25rem;
+  padding-block: 1rem;
+  text-align: right;
+}
+
+.pagesat-btn-14 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.pagesat-btn-14:hover {
+  text-decoration-line: underline;
+}
+
+.dark .pagesat-btn-14 {
+  color: var(--blue-dark);
+}
+
+:where(.pagesat-box-16 > :not(:last-child)) {
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-top-width: 0;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+}
+
+.dark :where(.pagesat-box-16 > :not(:last-child)) {
+  border-color: var(--gray-850);
+}
+
+.pagesat-row-13 {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.pagesat-icon-box-2 {
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-xl);
+  background-color: var(--gray-100);
+}
+
+.dark .pagesat-icon-box-2 {
+  background-color: var(--gray-850);
+}
+
+.pagesat-row-14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.pagesat-text-34 {
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.dark .pagesat-text-34 {
+  color: #FFF;
+}
+
+.pagesat-row-15 {
+  margin-top: 0.375rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pagesat-text-35 {
+  font-size: 12px;
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-35 {
+  color: var(--gray-600);
+}
+
+.pagesat-btn-15 {
+  margin-top: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.dark .pagesat-btn-15 {
+  color: var(--blue-dark);
+}
+
+.pagesat-btn-4 {
+  border-color: var(--blue);
+}
+
+.dark .pagesat-btn-4 {
+  border-color: var(--blue-dark);
+}
+
+.pagesat-btn-5 {
+  border-color: transparent;
+}
+
+.pagesat-text-8 {
+  color: var(--gray-900);
+}
+
+.dark .pagesat-text-8 {
+  color: #FFF;
+}
+
+.pagesat-icon-5 {
+  rotate: 180deg;
+}
+
+.pagesat-btn-8 {
+  background-color: rgba(0, 122, 255, 0.06);
+}
+
+.dark .pagesat-btn-8 {
+  background-color: rgba(10, 132, 255, 0.1);
+}
+
+.pagesat-box-10 {
+  pointer-events: none;
+  opacity: 50%;
+}
+
+.pagesat-text-17 {
+  background-color: var(--blue);
+  color: #FFF;
+}
+
+.dark .pagesat-text-17 {
+  background-color: var(--blue-dark);
+}
+
+.pagesat-text-18 {
+  background-color: var(--gray-200);
+  color: var(--gray-500);
+}
+
+.dark .pagesat-text-18 {
+  background-color: var(--gray-800);
+}
+
+.pagesat-btn-10 {
+  border-color: var(--blue);
+  background-color: var(--blue);
+}
+
+.dark .pagesat-btn-10 {
+  border-color: var(--blue-dark);
+  background-color: var(--blue-dark);
+}
+
+.pagesat-btn-11 {
+  border-color: transparent;
+  background-color: var(--gray-50);
+}
+
+.pagesat-btn-11:hover {
+  border-color: rgba(0, 122, 255, 0.5);
+  background-color: #FFF;
+}
+
+.dark .pagesat-btn-11 {
+  background-color: var(--gray-850);
+}
+
+.dark .pagesat-btn-11:hover {
+  border-color: rgba(10, 132, 255, 0.5);
+  background-color: var(--gray-750);
+}
+
+.pagesat-text-22 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.pagesat-row-11 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-100);
+}
+
+.dark .pagesat-row-11 {
+  border-color: var(--gray-850);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 640px) {
+  .pagesat-scroll-2 {
+    display: block;
+  }
+
+  .pagesat-box-16 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .pagesat-box {
+    padding: 2rem;
+  }
+
+  .pagesat-box-2 {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pagesat-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .pagesat-box-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .pagesat-text-24 {
+    position: sticky;
+    top: 1.5rem;
+    grid-column: span 2 / span 2;
+  }
+}

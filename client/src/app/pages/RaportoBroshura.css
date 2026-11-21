@@ -1,0 +1,538 @@
+/* RaportoBroshura styles */
+
+.raporto-broshura-box {
+  padding: 1.5rem;
+}
+
+:where(.raporto-broshura-box > :not(:last-child)) {
+  margin-block-start: 0;
+  margin-block-end: 1.5rem;
+}
+
+.dark .raporto-broshura-box {
+  background-color: transparent;
+}
+
+.raporto-broshura-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.raporto-broshura-title {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--gray-900);
+}
+
+.dark .raporto-broshura-title {
+  color: #FFF;
+}
+
+.raporto-broshura-text {
+  font-size: 1.125rem;
+  line-height: calc(1.75 / 1.125);
+  color: var(--gray-500);
+}
+
+.dark .raporto-broshura-text {
+  color: var(--gray-550);
+}
+
+.raporto-broshura-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 149, 0, 0.4);
+  background-color: rgba(255, 149, 0, 0.08);
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+}
+
+.dark .raporto-broshura-card {
+  border-color: rgba(255, 149, 0, 0.3);
+  background-color: rgba(255, 149, 0, 0.1);
+}
+
+.raporto-broshura-icon {
+  margin-top: 0.125rem;
+  height: 1rem;
+  width: 1rem;
+  flex-shrink: 0;
+  color: var(--orange);
+}
+
+.raporto-broshura-text-2 {
+  flex: 1;
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  font-weight: 500;
+  color: #9A5A00;
+}
+
+.dark .raporto-broshura-text-2 {
+  color: var(--orange);
+}
+
+.raporto-broshura-btn {
+  flex-shrink: 0;
+  color: var(--orange);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.raporto-broshura-btn:hover {
+  color: #C47300;
+}
+
+.dark .raporto-broshura-btn:hover {
+  color: #FFF;
+}
+
+.raporto-broshura-icon-2 {
+  height: 1rem;
+  width: 1rem;
+}
+
+.raporto-broshura-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.raporto-broshura-card-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  padding: 1.25rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.raporto-broshura-card-2:hover {
+  border-color: rgba(0, 122, 255, 0.2);
+  box-shadow: 0 6px 20px rgb(0, 0, 0, 0.07);
+}
+
+.dark .raporto-broshura-card-2 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+}
+
+.dark .raporto-broshura-card-2:hover {
+  box-shadow: none;
+}
+
+.raporto-broshura-icon-box {
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-xl);
+}
+
+.raporto-broshura-box-2 {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.raporto-broshura-text-3 {
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.dark .raporto-broshura-text-3 {
+  color: #FFF;
+}
+
+.raporto-broshura-text-4 {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1.625;
+  color: var(--gray-500);
+}
+
+.dark .raporto-broshura-text-4 {
+  color: var(--gray-550);
+}
+
+.raporto-broshura-box-3 {
+  overflow: hidden;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  box-shadow: 0 8px 30px rgb(0, 0, 0, 0.04);
+}
+
+.dark .raporto-broshura-box-3 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  box-shadow: none;
+}
+
+.raporto-broshura-stack-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-200);
+  padding-inline: 1.5rem;
+  padding-block: 1.25rem;
+}
+
+.dark .raporto-broshura-stack-2 {
+  border-color: var(--gray-800);
+}
+
+.raporto-broshura-text-5 {
+  flex: 1;
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  color: var(--gray-500);
+}
+
+.dark .raporto-broshura-text-5 {
+  color: var(--gray-550);
+}
+
+.raporto-broshura-row {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.raporto-broshura-btn-2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  font-weight: 500;
+  color: var(--gray-900);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.raporto-broshura-btn-2:hover {
+  border-color: rgba(0, 122, 255, 0.4);
+  background-color: rgba(0, 122, 255, 0.05);
+}
+
+.dark .raporto-broshura-btn-2 {
+  border-color: var(--gray-800);
+  color: #FFF;
+}
+
+.raporto-broshura-btn-3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xl);
+  background-color: var(--blue);
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  font-weight: 500;
+  color: #FFF;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.raporto-broshura-btn-3:hover {
+  background-color: #0066D6;
+}
+
+.raporto-broshura-btn-3:active {
+  background-color: #005BBB;
+}
+
+:where(.raporto-broshura-box-4 > :not(:last-child)) {
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-top-width: 0;
+  border-bottom-width: 1px;
+  border-color: var(--gray-200);
+}
+
+.dark :where(.raporto-broshura-box-4 > :not(:last-child)) {
+  border-color: var(--gray-800);
+}
+
+.raporto-broshura-row-2 {
+  display: flex;
+  cursor: default;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-inline: 1.5rem;
+  padding-block: 1.25rem;
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.raporto-broshura-row-2:hover {
+  background-color: var(--gray-50);
+}
+
+.dark .raporto-broshura-row-2:hover {
+  background-color: var(--gray-850);
+}
+
+.raporto-broshura-avatar {
+  margin-top: 0.125rem;
+  display: flex;
+  height: 1.75rem;
+  width: 1.75rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: rgba(0, 122, 255, 0.1);
+}
+
+.dark .raporto-broshura-avatar {
+  background-color: rgba(0, 122, 255, 0.15);
+}
+
+.raporto-broshura-text-6 {
+  font-size: 0.75rem;
+  line-height: calc(1 / 0.75);
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.raporto-broshura-box-5 {
+  min-width: 0;
+  flex: 1;
+}
+
+.raporto-broshura-icon-3 {
+  margin-top: 0.125rem;
+  height: 1rem;
+  width: 1rem;
+  flex-shrink: 0;
+  color: var(--gray-300);
+  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover-group:hover .raporto-broshura-icon-3 {
+  color: var(--blue);
+}
+
+.dark .raporto-broshura-icon-3 {
+  color: var(--gray-600);
+}
+
+.raporto-broshura-card-3 {
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: #FFF;
+  padding: 1.5rem;
+  box-shadow: 0 8px 30px rgb(0, 0, 0, 0.04);
+}
+
+.dark .raporto-broshura-card-3 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-900);
+  box-shadow: none;
+}
+
+.raporto-broshura-text-7 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.dark .raporto-broshura-text-7 {
+  color: #FFF;
+}
+
+.raporto-broshura-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.raporto-broshura-card-4 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--gray-200);
+  background-color: var(--gray-50);
+  padding: 1rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.raporto-broshura-card-4:hover {
+  border-color: rgba(0, 122, 255, 0.3);
+  background-color: rgba(0, 122, 255, 0.05);
+}
+
+.dark .raporto-broshura-card-4 {
+  border-color: var(--gray-800);
+  background-color: var(--gray-850);
+}
+
+.dark .raporto-broshura-card-4:hover {
+  background-color: rgba(0, 122, 255, 0.1);
+}
+
+.raporto-broshura-icon-box-2 {
+  display: flex;
+  height: 2.25rem;
+  width: 2.25rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-xl);
+  background-color: rgba(0, 122, 255, 0.1);
+}
+
+.dark .raporto-broshura-icon-box-2 {
+  background-color: rgba(0, 122, 255, 0.15);
+}
+
+.raporto-broshura-box-6 {
+  height: 1rem;
+  width: 1rem;
+  color: var(--blue);
+}
+
+.raporto-broshura-text-8 {
+  font-size: 0.75rem;
+  line-height: calc(1 / 0.75);
+  color: var(--gray-500);
+}
+
+.dark .raporto-broshura-text-8 {
+  color: var(--gray-550);
+}
+
+.raporto-broshura-text-9 {
+  font-size: 0.875rem;
+  line-height: calc(1.25 / 0.875);
+  font-weight: 500;
+  color: var(--gray-900);
+}
+
+.dark .raporto-broshura-text-9 {
+  color: #FFF;
+}
+
+.raporto-broshura-color {
+  color: var(--blue);
+}
+
+.raporto-broshura-bg {
+  background-color: rgba(0, 122, 255, 0.1);
+}
+
+.dark .raporto-broshura-bg {
+  background-color: rgba(0, 122, 255, 0.15);
+}
+
+.raporto-broshura-color-2 {
+  color: var(--green);
+}
+
+.raporto-broshura-bg-2 {
+  background-color: rgba(52, 199, 89, 0.1);
+}
+
+.dark .raporto-broshura-bg-2 {
+  background-color: rgba(52, 199, 89, 0.15);
+}
+
+.raporto-broshura-color-3 {
+  color: var(--orange);
+}
+
+.raporto-broshura-bg-3 {
+  background-color: rgba(255, 149, 0, 0.1);
+}
+
+.dark .raporto-broshura-bg-3 {
+  background-color: rgba(255, 149, 0, 0.15);
+}
+
+.raporto-broshura-color-4 {
+  color: var(--purple);
+}
+
+.raporto-broshura-bg-4 {
+  background-color: rgba(175, 82, 222, 0.1);
+}
+
+.dark .raporto-broshura-bg-4 {
+  background-color: rgba(175, 82, 222, 0.15);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (min-width: 640px) {
+  .raporto-broshura-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .raporto-broshura-stack-2 {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .raporto-broshura-grid-2 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .raporto-broshura-box {
+    padding: 2rem;
+  }
+
+  .raporto-broshura-card-3 {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .raporto-broshura-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

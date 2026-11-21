@@ -1,0 +1,72 @@
+/* ==========================================================
+   Design tokens — SEMS 2.0
+   Colors follow the Apple (iOS) system palette used in the
+   Figma design. Every page stylesheet uses these variables.
+   ========================================================== */
+
+:root {
+  /* Accent colors (light mode / dark mode variants) */
+  --blue: #007AFF;
+  --blue-dark: #0A84FF;
+  --green: #34C759;
+  --green-dark: #30D158;
+  --red: #FF3B30;
+  --red-dark: #FF453A;
+  --orange: #FF9500;
+  --orange-dark: #FF9F0A;
+  --purple: #AF52DE;
+  --purple-dark: #BF5AF2;
+  --indigo: #5856D6;
+  --pink: #FF375F;
+
+  /* Soft tinted backgrounds */
+  --blue-soft: #EBF5FF;
+  --green-soft: #EDFAF1;
+  --orange-soft: #FFF5E6;
+  --pink-soft: #FFF0F3;
+
+  /* Neutrals (light → dark) */
+  --gray-50: #F9F9FB;
+  --gray-100: #F2F2F7;
+  --gray-150: #EBEBF0;
+  --gray-200: #E5E5EA;
+  --gray-300: #C7C7CC;
+  --gray-400: #AEAEB2;
+  --gray-500: #8E8E93;
+  --gray-550: #98989D;
+  --gray-600: #636366;
+  --gray-700: #48484A;
+  --gray-750: #3A3A3C;
+  --gray-800: #38383A;
+  --gray-850: #2C2C2E;
+  --gray-900: #1C1C1E;
+
+  /* Text */
+  --text-secondary: #3C3C43;
+  --text-secondary-dark: #EBEBF5;
+
+  /* Page defaults */
+  --background: #FFFFFF;
+  --foreground: #0A0A0A;
+  --border: rgba(0, 0, 0, 0.1);
+  --ring: #A1A1A1;
+
+  /* Corner radius */
+  --radius: 0.625rem;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  /* Typography */
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Dark mode: the ThemeContext adds the "dark" class on <html> */
+.dark {
+  --background: #0A0A0A;
+  --foreground: #FAFAFA;
+  --border: #262626;
+  --ring: #525252;
+}
