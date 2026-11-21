@@ -7,7 +7,12 @@
     "studentNumber": "240204100009",
     "emailPersonal": "arta.berisha@gmail.com",
     "telefon": "+383 44 123 456",
-    "adresa": "Rr. Nënë Tereza, Prishtinë"
+    "adresa": "Rr. Nënë Tereza, Prishtinë",
+    "faculty": "Fakulteti FIEK",
+    "program": "Inxhinieri Kompjuterike",
+    "year": "Viti 3 (Semestri 5)",
+    "email": "arta.berisha@student.uni-pr.edu",
+    "status": "I rregullt"
   },
   "upcomingExams": [
     {

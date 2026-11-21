@@ -26,7 +26,7 @@ async function request(method, url, body) {
 
   const data = await res.json().catch(() => null);
   if (!res.ok) {
-    if (res.status === 401) {
+    if (res.status === 401 && url !== "/auth/login") {
       localStorage.removeItem(TOKEN_KEY);
       window.location.assign("/");
       return;

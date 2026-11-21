@@ -63,8 +63,8 @@ export function Konsultime() {
       showToast(err.message);
       return;
     }
-    setMyRequests((prev) => [newReq, ...prev]);
     myConsultations.unshift(newReq);
+    setMyRequests([...myConsultations]);
     setActiveProf(null);
     setSelectedSlot("");
     setSelectedDate("");
