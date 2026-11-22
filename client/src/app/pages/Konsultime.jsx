@@ -3,6 +3,8 @@ import { Calendar, Clock, MapPin, User, CalendarRange, X, CheckCircle2, XCircle 
 import { SmartSearch } from "../components/SmartSearch";
 import { consultationProfessors as professors, bookedSlots, consultations as myConsultations } from "../data/student";
 import { api } from "../../api";
+import Toast from "../components/Toast";
+import { useToast } from "../components/useToast";
 import "./Konsultime.css";
 
 const statusCfg = {
@@ -26,8 +28,7 @@ export function Konsultime() {
   const [selectedSlot, setSelectedSlot] = useState("");
   const [selectedDate, setSelectedDate] = useState("");
   const [arsyeja, setArsyeja] = useState("");
-  const [toast, setToast] = useState(null);
-
+  const { toast, showToast, hideToast } = useToast();
   const [myRequests, setMyRequests] = useState(myConsultations);
 
   const q = query.trim().toLowerCase();
@@ -41,10 +42,6 @@ export function Konsultime() {
 
   const canSubmit = selectedSlot !== "" && selectedDate !== "" && arsyeja.trim().length > 5;
 
-  function showToast(msg) {
-    setToast(msg);
-    setTimeout(() => setToast(null), 3500);
-  }
 
   async function handleSubmit() {
     if (!activeProf || !canSubmit) return;
@@ -60,7 +57,7 @@ export function Konsultime() {
         reason: arsyeja,
       });
     } catch (err) {
-      showToast(err.message);
+      showToast(err.message, "error");
       return;
     }
     myConsultations.unshift(newReq);
@@ -69,14 +66,14 @@ export function Konsultime() {
     setSelectedSlot("");
     setSelectedDate("");
     setArsyeja("");
-    showToast("Kërkesa për konsultim u dërgua. Do të njoftoheni kur profesori të përgjigjet.");
+    showToast("Kërkesa për konsultim u dërgua. Do të njoftoheni kur profesori të përgjigjet.", "success");
   }
 
   async function cancelRequest(id) {
     try {
       await api.delete(`/student/consultations/${id}`);
     } catch (err) {
-      showToast(err.message);
+      showToast(err.message, "error");
       return;
     }
     setMyRequests((prev) => prev.filter((r) => r.id !== id));
@@ -86,14 +83,14 @@ export function Konsultime() {
 
   return (
     <div className="konsultime-box">
-      {/* Toast */}
-      {toast && (
+      {toast && <Toast type={toast.type} message={toast.message} onClose={hideToast} />}
+      {/*{toast && (
         <div className="konsultime-card">
           <CheckCircle2 size={18} className="konsultime-icon" />
           <span className="konsultime-text">{toast}</span>
           <button onClick={() => setToast(null)} className="konsultime-btn"><X size={14} /></button>
         </div>
-      )}
+      )}*/}
 
       {/* Header */}
       <div className="konsultime-stack">

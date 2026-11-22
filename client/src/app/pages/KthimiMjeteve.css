@@ -3,7 +3,6 @@
 .kthimi-mjeteve-box {
   padding: 1.5rem;
 }
-
 :where(.kthimi-mjeteve-box > :not(:last-child)) {
   margin-block-start: 0;
   margin-block-end: 1.5rem;
@@ -26,6 +25,8 @@
   letter-spacing: -0.025em;
   color: var(--gray-900);
 }
+
+.kthimi-mjeteve-field { max-width: 32rem; }
 
 .dark .kthimi-mjeteve-title {
   color: #FFF;

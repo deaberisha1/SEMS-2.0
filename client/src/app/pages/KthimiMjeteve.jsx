@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Search } from "lucide-react";
+import FormField from "../components/FormField";
 import "./KthimiMjeteve.css";
 
 export function KthimiMjeteve() {
@@ -17,13 +18,7 @@ export function KthimiMjeteve() {
       </div>
 
       <div className="kthimi-mjeteve-card">
-        <div className="kthimi-mjeteve-stack-2">
-          <label
-            htmlFor="regjistri"
-            className="kthimi-mjeteve-label"
-          >
-            Numri i regjistrit
-          </label>
+        <FormField id="regjistri" label="Numri i regjistrit" error="Test">
           <div className="kthimi-mjeteve-row">
             <input
               id="regjistri"
@@ -32,16 +27,15 @@ export function KthimiMjeteve() {
               onChange={(e) => setRegjistri(e.target.value)}
               className="kthimi-mjeteve-input"
               placeholder="Shkruani numrin e regjistrit"
+              aria-invalid={true}
+              aria-describedby="regjistri-error"
             />
-            <button
-              type="button"
-              className="kthimi-mjeteve-btn"
-            >
+            <button type="button" className="kthimi-mjeteve-btn">
               <Search className="kthimi-mjeteve-icon" />
               Kërko
             </button>
           </div>
-        </div>
+        </FormField>
       </div>
     </div>
   );
