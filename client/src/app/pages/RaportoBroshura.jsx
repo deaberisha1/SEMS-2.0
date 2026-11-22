@@ -70,19 +70,19 @@ export function RaportoBroshura() {
   const [alertDismissed, setAlertDismissed] = useState(false);
 
   return (
-    <div className="raporto-broshura-box">
-      <div className="raporto-broshura-stack">
+    <article className="raporto-broshura-box">
+      <header className="raporto-broshura-stack">
         <h1 className="raporto-broshura-title">
           Raporto – Broshura
         </h1>
         <p className="raporto-broshura-text">
           Informacion zyrtar mbi raportimin e rasteve të ngacmimit dhe diskriminimit në UP.
         </p>
-      </div>
+      </header>
 
       {/* Emergency alert */}
       {!alertDismissed && (
-        <div className="raporto-broshura-card">
+        <section className="raporto-broshura-card">
           <AlertTriangle className="raporto-broshura-icon" />
           <span className="raporto-broshura-text-2">
             Në rast emergjence kontaktoni menjëherë administratën ose organet kompetente.
@@ -95,11 +95,11 @@ export function RaportoBroshura() {
           >
             <X className="raporto-broshura-icon-2" />
           </button>
-        </div>
+        </section>
       )}
 
       {/* Info cards */}
-      <div className="raporto-broshura-grid">
+      <section className="raporto-broshura-grid">
         {infoCards.map((card) => (
           <div
             key={card.id}
@@ -114,10 +114,10 @@ export function RaportoBroshura() {
             </div>
           </div>
         ))}
-      </div>
+      </section>
 
       {/* Main content card */}
-      <div className="raporto-broshura-box-3">
+      <section className="raporto-broshura-box-3">
         {/* Actions bar */}
         <div className="raporto-broshura-stack-2">
           <p className="raporto-broshura-text-5">
@@ -159,10 +159,10 @@ export function RaportoBroshura() {
             </div>
           ))}
         </div>
-      </div>
+      </section>
 
       {/* Contact card */}
-      <div className="raporto-broshura-card-3">
+      <section className="raporto-broshura-card-3">
         <p className="raporto-broshura-text-7">Kontaktet zyrtare</p>
         <div className="raporto-broshura-grid-2">
           {kontaktet.map((k) => (
@@ -180,7 +180,7 @@ export function RaportoBroshura() {
             </div>
           ))}
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }

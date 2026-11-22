@@ -64,18 +64,18 @@ export function Manualet() {
   const navigate = useNavigate();
 
   return (
-    <div className="manualet-box">
+    <article className="manualet-box">
       <div className="manualet-box-2">
 
         {/* Header */}
-        <div className="manualet-text">
+        <header className="manualet-text">
           <h1 className="manualet-title">
             Manualet e SEMS
           </h1>
           <p className="manualet-text-2">
             Këtu mund të gjeni manualet e përdorimit për modulet e SEMS.
           </p>
-        </div>
+        </header>
 
         {/* Category groups */}
         {[
@@ -83,7 +83,7 @@ export function Manualet() {
           { label: "Prezenca", icon: CheckCircle2, items: manuals.filter(m => m.category === "Prezenca") },
           { label: "Kërkesat", icon: BookOpen, items: manuals.filter(m => m.category === "Kërkesat") },
         ].map((group) => (
-          <div key={group.label} className="manualet-text-3">
+          <section key={group.label} className="manualet-text-3">
             {/* Group header */}
             <div className="manualet-row">
               <group.icon size={14} className="manualet-text-4" />
@@ -129,18 +129,18 @@ export function Manualet() {
                 );
               })}
             </div>
-          </div>
+          </section>
         ))}
 
         {/* Footer note */}
-        <div className="manualet-card-2">
+        <section className="manualet-card-2">
           <Tablet size={16} className="manualet-icon" />
           <p className="manualet-text-8">
             Nëse keni nevojë për ndihmë shtesë, kontaktoni administratën e universitetit ose pedagogun tuaj përgjegjës.
           </p>
-        </div>
+        </section>
 
       </div>
-    </div>
+    </article>
   );
 }

@@ -56,19 +56,19 @@ export function RaportoRregullore() {
   const [alertDismissed, setAlertDismissed] = useState(false);
 
   return (
-    <div className="raporto-rregullore-box">
-      <div className="raporto-rregullore-stack">
+    <article className="raporto-rregullore-box">
+      <header className="raporto-rregullore-stack">
         <h1 className="raporto-rregullore-title">
           Rregullore
         </h1>
         <p className="raporto-rregullore-text">
           Parandalimi dhe mbrojtja nga ngacmimi dhe ngacmimi seksual në UP.
         </p>
-      </div>
+      </header>
 
       {/* Alert */}
       {!alertDismissed && (
-        <div className="raporto-rregullore-card">
+        <section className="raporto-rregullore-card">
           <AlertTriangle className="raporto-rregullore-icon" />
           <span className="raporto-rregullore-text-2">
             Në rast emergjence kontaktoni menjëherë organet kompetente ose administratën.
@@ -81,11 +81,11 @@ export function RaportoRregullore() {
           >
             <X className="raporto-rregullore-icon-2" />
           </button>
-        </div>
+        </section>
       )}
 
       {/* Actions card */}
-      <div className="raporto-rregullore-card-2">
+      <section className="raporto-rregullore-card-2">
         <div className="raporto-rregullore-box-2">
           <p className="raporto-rregullore-text-3">
             Rregullorja për parandalimin dhe mbrojtjen nga ngacmimi seksual
@@ -115,10 +115,10 @@ export function RaportoRregullore() {
             Shkarko PDF
           </button>
         </div>
-      </div>
+      </section>
 
       {/* Sections */}
-      <div className="raporto-rregullore-box-3">
+      <section className="raporto-rregullore-box-3">
         <div className="raporto-rregullore-box-4">
           <p className="raporto-rregullore-text-4">Përmbajtja e rregullores</p>
         </div>
@@ -139,7 +139,7 @@ export function RaportoRregullore() {
             </div>
           ))}
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }
