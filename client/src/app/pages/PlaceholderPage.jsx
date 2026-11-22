@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./PlaceholderPage.css";
 
 export function PlaceholderPage({ title }) {
@@ -8,7 +9,7 @@ export function PlaceholderPage({ title }) {
           {title}
         </h1>
         <p className="placeholder-page-text">
-          Kjo faqe është në ndërtim e sipër.
+          Kjo faqe nuk ekziston ose është në ndërtim.
         </p>
       </div>
       <div className="placeholder-page-card">
@@ -19,6 +20,9 @@ export function PlaceholderPage({ title }) {
         </div>
         <p className="placeholder-page-text-3">Së shpejti</p>
       </div>
+      <Link to="/" className="placeholder-page-link">
+        Kthehu në Ballina
+      </Link>
     </div>
   );
 }

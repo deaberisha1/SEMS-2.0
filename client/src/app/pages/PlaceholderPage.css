@@ -88,6 +88,29 @@
   color: #FFF;
 }
 
+.placeholder-page-link {
+  display: inline-flex;
+  padding: 0.625rem 1rem;
+  border-radius: var(--radius-lg);
+  background: var(--blue);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.placeholder-page-link:hover {
+  opacity: 0.9;
+}
+
+.placeholder-page-link:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.dark .placeholder-page-link {
+  background: var(--blue-dark);
+}
+
 /* ---------- Responsive ---------- */
 
 @media (min-width: 768px) {
