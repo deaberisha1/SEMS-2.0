@@ -155,6 +155,7 @@ export function KerkeseAnkese() {
         {/* Table — desktop */}
         <div className="kerkese-ankese-scroll">
           <table className="kerkese-ankese-table">
+            <caption className="sr-only">Kërkesat dhe ankesat e mia</caption>
             <thead>
               <tr className="kerkese-ankese-row-3">
                 {[
@@ -167,6 +168,7 @@ export function KerkeseAnkese() {
                   "Aksion",
                 ].map((col) => (
                   <th
+                    scope="col"
                     key={col}
                     className="kerkese-ankese-th"
                   >

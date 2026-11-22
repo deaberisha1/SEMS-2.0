@@ -59,6 +59,7 @@ function PercentBar({ value }) {
 }
 
 function StyledSelect({
+  id,
   label,
   value,
   onChange,
@@ -66,11 +67,12 @@ function StyledSelect({
 }) {
   return (
     <div className="vijueshmeria-stack">
-      <label className="vijueshmeria-label">
+      <label htmlFor={id} className="vijueshmeria-label">
         {label}
       </label>
       <div className="vijueshmeria-box-3">
         <select
+          id={id}
           value={value}
           onChange={(e) => onChange(e.target.value)}
           className="vijueshmeria-select"
@@ -140,11 +142,12 @@ export function Vijueshmeria() {
 
         {/* Mobile Filter Card */}
         <div className="vijueshmeria-card">
-          <label className="vijueshmeria-label-2">
+          <label htmlFor="vijueshmeria-semestri" className="vijueshmeria-label-2">
             Semestri
           </label>
           <div className="vijueshmeria-box-3">
             <select
+              id="vijueshmeria-semestri"
               value={semestri}
               onChange={(e) => setSemestri(e.target.value)}
               className="vijueshmeria-select-2"
@@ -157,11 +160,12 @@ export function Vijueshmeria() {
 
           <div className="vijueshmeria-box-6" />
 
-          <label className="vijueshmeria-label-2">
+          <label htmlFor="vijueshmeria-lenda" className="vijueshmeria-label-2">
             Lënda
           </label>
           <div className="vijueshmeria-box-3">
             <select
+              id="vijueshmeria-lenda"
               value={lenda}
               onChange={(e) => setLenda(e.target.value)}
               className="vijueshmeria-select-2"
@@ -187,12 +191,14 @@ export function Vijueshmeria() {
         <div className="vijueshmeria-card-2">
           <div className="vijueshmeria-stack-2">
             <StyledSelect
+              id="vijueshmeria-filtri-semestri"
               label="Semestri"
               value={semestri}
               onChange={setSemestri}
               options={semestrat}
             />
             <StyledSelect
+              id="vijueshmeria-filtri-lenda"
               label="Lënda"
               value={lenda}
               onChange={setLenda}
@@ -234,16 +240,17 @@ export function Vijueshmeria() {
               {/* Desktop */}
               <div className="vijueshmeria-scroll">
                 <table className="vijueshmeria-table">
+                  <caption className="sr-only">Vijueshmëria sipas lëndëve</caption>
                   <thead>
                     <tr className="vijueshmeria-row-2">
-                      <th className="vijueshmeria-th">Nr</th>
-                      <th className="vijueshmeria-th">Lënda</th>
-                      <th className="vijueshmeria-th">Profesori</th>
-                      <th className="vijueshmeria-th-2">Gjithsej</th>
-                      <th className="vijueshmeria-th-2">I pranishëm</th>
-                      <th className="vijueshmeria-th-2">I munguar</th>
-                      <th className="vijueshmeria-th-3">Vijueshmëria</th>
-                      <th className="vijueshmeria-th">Statusi</th>
+                      <th scope="col" className="vijueshmeria-th">Nr</th>
+                      <th scope="col" className="vijueshmeria-th">Lënda</th>
+                      <th scope="col" className="vijueshmeria-th">Profesori</th>
+                      <th scope="col" className="vijueshmeria-th-2">Gjithsej</th>
+                      <th scope="col" className="vijueshmeria-th-2">I pranishëm</th>
+                      <th scope="col" className="vijueshmeria-th-2">I munguar</th>
+                      <th scope="col" className="vijueshmeria-th-3">Vijueshmëria</th>
+                      <th scope="col" className="vijueshmeria-th">Statusi</th>
                     </tr>
                   </thead>
                   <tbody>

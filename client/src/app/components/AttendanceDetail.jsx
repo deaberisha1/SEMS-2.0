@@ -191,6 +191,7 @@ export function AttendanceDetail({
       {/* Desktop Table */}
       <div className="attendance-detail-scroll">
         <table className="attendance-detail-table">
+          <caption className="sr-only">Detajet e vijueshmërisë</caption>
           <thead>
             <tr className="attendance-detail-row-4">
               {[
@@ -207,6 +208,7 @@ export function AttendanceDetail({
                 { key: "statusi", label: "Statusi", sortable: true },
               ].map((h) => (
                 <th
+                  scope="col"
                   key={h.label}
                   onClick={() => h.sortable && h.key && toggleSort(h.key)}
                   className={`attendance-detail-th ${

@@ -103,10 +103,12 @@ export function QeqAplikimi() {
           {/* Desktop table */}
           <div className="qeq-aplikimi-scroll">
             <table className="qeq-aplikimi-table">
+              <caption className="sr-only">Aplikimet në QEQ</caption>
               <thead>
                 <tr className="qeq-aplikimi-row">
                   {["Përshkrimi", "Data e kërkesës", "Aprovuar", "Data verifikimit", "Vërejtje"].map((h) => (
                     <th
+                      scope="col"
                       key={h}
                       className="qeq-aplikimi-th"
                     >

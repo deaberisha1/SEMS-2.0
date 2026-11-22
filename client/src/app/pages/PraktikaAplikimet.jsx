@@ -59,6 +59,7 @@ export function PraktikaAplikimet() {
               <select
                 value={perPage}
                 onChange={(e) => handlePerPage(Number(e.target.value))}
+                aria-label="Rreshta për faqe"
                 className="praktika-aplikimet-select"
               >
                 {PER_PAGE_OPTIONS.map((n) => (
@@ -76,6 +77,7 @@ export function PraktikaAplikimet() {
               type="text"
               value={kerkimi}
               onChange={(e) => { setKerkimi(e.target.value); setFaqja(1); }}
+              aria-label="Kërko aplikimet"
               className="praktika-aplikimet-input"
             />
           </div>
@@ -84,10 +86,12 @@ export function PraktikaAplikimet() {
         {/* Table */}
         <div className="praktika-aplikimet-scroll">
           <table className="praktika-aplikimet-table">
+            <caption className="sr-only">Aplikimet për praktikë</caption>
             <thead>
               <tr className="praktika-aplikimet-row-2">
                 {columns.map((col) => (
                   <th
+                    scope="col"
                     key={col.key}
                     className="praktika-aplikimet-th"
                   >

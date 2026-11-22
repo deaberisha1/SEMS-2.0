@@ -103,11 +103,13 @@ export function Cregjistrim() {
         {/* Table — desktop */}
         <div className="cregjistrim-scroll">
           <table className="cregjistrim-table">
+            <caption className="sr-only">Kërkesat për çregjistrim</caption>
             <thead>
               <tr className="cregjistrim-row-2">
                 {["ID e Regjistrimit", "Niveli", "Fakulteti", "Departamenti", "Data e Kërkesës", "Arsyeja e Çregjistrimit", "Aprovuar"].map(
                   (col) => (
                     <th
+                      scope="col"
                       key={col}
                       className="cregjistrim-th"
                     >

@@ -160,6 +160,7 @@ export function PraktikaApliko() {
             placeholder="Kërko kompani, pozitë ose lokacion..."
             value={kerkimi}
             onChange={(e) => setKerkimi(e.target.value)}
+            aria-label="Kërko praktika"
             className="praktika-apliko-input"
           />
           <button

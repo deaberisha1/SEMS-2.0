@@ -434,10 +434,11 @@ export function Pagesat() {
           {/* Desktop table */}
           <div className="pagesat-scroll-2">
             <table className="pagesat-table">
+              <caption className="sr-only">Historiku i pagesave</caption>
               <thead>
                 <tr className="pagesat-row-9">
                   {["Lloji i pagesës", "Data", "Metoda", "Shuma", "Statusi", ""].map((h) => (
-                    <th key={h} className="pagesat-th">
+                    <th scope="col" key={h} className="pagesat-th">
                       {h}
                     </th>
                   ))}

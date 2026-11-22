@@ -184,10 +184,11 @@ export function Burse() {
         {/* Desktop table */}
         <div className="burse-scroll">
           <table className="burse-table">
+            <caption className="sr-only">Historiku i aplikimeve për bursë</caption>
             <thead>
               <tr className="burse-row-2">
                 {["Viti akademik", "Fakulteti", "Nota mesatare", "Data e kërkesës", "Statusi", "Data e shqyrtimit", "Vërejtje"].map((h) => (
-                  <th key={h} className="burse-th">
+                  <th scope="col" key={h} className="burse-th">
                     {h}
                   </th>
                 ))}

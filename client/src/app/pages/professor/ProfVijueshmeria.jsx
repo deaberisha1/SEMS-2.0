@@ -169,8 +169,9 @@ export function ProfVijueshmeria() {
         {/* Session selector controls */}
         <div className="prof-vijueshmeria-row-3">
           <div className="prof-vijueshmeria-stack">
-            <label className="prof-vijueshmeria-label">Data</label>
+            <label htmlFor="prof-vijueshmeria-data" className="prof-vijueshmeria-label">Data</label>
             <input
+              id="prof-vijueshmeria-data"
               type="date"
               value={sessionDate}
               onChange={(e) => setSessionDate(e.target.value)}
@@ -178,12 +179,17 @@ export function ProfVijueshmeria() {
             />
           </div>
           <div className="prof-vijueshmeria-stack">
-            <label className="prof-vijueshmeria-label">Tipi</label>
-            <div className="prof-vijueshmeria-row-4">
+            <span className="prof-vijueshmeria-label" id="prof-vijueshmeria-tipi">Tipi</span>
+            <div
+              className="prof-vijueshmeria-row-4"
+              role="group"
+              aria-labelledby="prof-vijueshmeria-tipi"
+            >
               {(["L", "U", "Lab"]).map((t) => (
                 <button
                   key={t}
                   onClick={() => setSessionType(t)}
+                  aria-pressed={sessionType === t}
                   className={`prof-vijueshmeria-btn-6 ${
                     sessionType === t
                       ? "prof-vijueshmeria-btn-7"
@@ -208,10 +214,11 @@ export function ProfVijueshmeria() {
         {/* Desktop table */}
         <div className="prof-vijueshmeria-scroll">
           <table className="prof-vijueshmeria-table">
+            <caption className="sr-only">Prezenca në sesion</caption>
             <thead>
               <tr className="prof-vijueshmeria-row-6">
                 {["Nr.", "Studenti", "Nr. Studentor", "Check-in", "Check-out", "Kohëzgjatja", "Statusi", "Veprim"].map((h) => (
-                  <th key={h} className="prof-vijueshmeria-th">{h}</th>
+                  <th scope="col" key={h} className="prof-vijueshmeria-th">{h}</th>
                 ))}
               </tr>
             </thead>
@@ -371,6 +378,7 @@ export function ProfVijueshmeria() {
               onChange={(e) => setReason(e.target.value)}
               placeholder="Arsyeja e ndryshimit (p.sh. problem teknik me QR)"
               rows={3}
+              aria-label="Arsyeja e ndryshimit"
               className="prof-vijueshmeria-textarea"
             />
             <div className="prof-vijueshmeria-row-15">

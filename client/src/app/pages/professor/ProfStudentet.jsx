@@ -55,21 +55,23 @@ export function ProfStudentet() {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Kërko sipas emrit ose numrit studentor..."
+              aria-label="Kërko studentin"
               className="prof-studentet-input"
             />
           </div>
         </div>
         <div className="prof-studentet-scroll">
           <table className="prof-studentet-table">
+            <caption className="sr-only">Studentët e lëndës</caption>
             <thead>
               <tr className="prof-studentet-row-3">
-                <th className="prof-studentet-th">Nr.</th>
-                <th className="prof-studentet-th">Emri</th>
-                <th className="prof-studentet-th">Nr. Studentor</th>
-                <th className="prof-studentet-th">Vijueshmëria</th>
-                <th className="prof-studentet-th">Pikët</th>
-                <th className="prof-studentet-th">Statusi</th>
-                <th className="prof-studentet-th"></th>
+                <th scope="col" className="prof-studentet-th">Nr.</th>
+                <th scope="col" className="prof-studentet-th">Emri</th>
+                <th scope="col" className="prof-studentet-th">Nr. Studentor</th>
+                <th scope="col" className="prof-studentet-th">Vijueshmëria</th>
+                <th scope="col" className="prof-studentet-th">Pikët</th>
+                <th scope="col" className="prof-studentet-th">Statusi</th>
+                <th scope="col" className="prof-studentet-th"></th>
               </tr>
             </thead>
             <tbody>

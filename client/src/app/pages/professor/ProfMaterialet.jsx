@@ -73,14 +73,15 @@ export function ProfMaterialet() {
 
       <div className="prof-materialet-scroll">
         <table className="prof-materialet-table">
+          <caption className="sr-only">Materialet e lëndës</caption>
           <thead>
             <tr className="prof-materialet-row-3">
-              <th className="prof-materialet-th">Emri</th>
-              <th className="prof-materialet-th">Lloji</th>
-              <th className="prof-materialet-th">Data</th>
-              <th className="prof-materialet-th">Madhësia</th>
-              <th className="prof-materialet-th">Shkarkime</th>
-              <th className="prof-materialet-th">Veprime</th>
+              <th scope="col" className="prof-materialet-th">Emri</th>
+              <th scope="col" className="prof-materialet-th">Lloji</th>
+              <th scope="col" className="prof-materialet-th">Data</th>
+              <th scope="col" className="prof-materialet-th">Madhësia</th>
+              <th scope="col" className="prof-materialet-th">Shkarkime</th>
+              <th scope="col" className="prof-materialet-th">Veprime</th>
             </tr>
           </thead>
           <tbody>

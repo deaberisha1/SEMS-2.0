@@ -68,6 +68,7 @@ const llojConfig = {
 // ─── Sub-components ───────────────────────────────────────────────────────────
 
 function FilterSelect({
+  id,
   label,
   value,
   onChange,
@@ -75,11 +76,12 @@ function FilterSelect({
 }) {
   return (
     <div className="literatura-stack">
-      <label className="literatura-label">
+      <label htmlFor={id} className="literatura-label">
         {label}
       </label>
       <div className="literatura-box">
         <select
+          id={id}
           value={value}
           onChange={(e) => onChange(e.target.value)}
           className="literatura-select"
@@ -171,6 +173,7 @@ export function Literatura() {
             value={rawSearch}
             onChange={(e) => { setRawSearch(e.target.value); setPage(1); }}
             placeholder="Kërko material..."
+            aria-label="Kërko literaturë"
             className="literatura-input"
           />
         </div>
@@ -178,10 +181,10 @@ export function Literatura() {
         {/* Filter card */}
         <div className="literatura-card">
           <div className="literatura-stack-2">
-            <FilterSelect label="Viti akademik" value={viti}     onChange={setViti}     options={vitiOptions}  />
-            <FilterSelect label="Semestri"      value={semestri} onChange={setSemestri} options={semestratOpt} />
-            <FilterSelect label="Lënda"         value={lenda}    onChange={setLenda}    options={lendetOpt}    />
-            <FilterSelect label="Lloji i materialit" value={lloji} onChange={setLloji} options={llojetOpt}    />
+            <FilterSelect id="literatura-viti" label="Viti akademik" value={viti}     onChange={setViti}     options={vitiOptions}  />
+            <FilterSelect id="literatura-semestri" label="Semestri"      value={semestri} onChange={setSemestri} options={semestratOpt} />
+            <FilterSelect id="literatura-lenda" label="Lënda"         value={lenda}    onChange={setLenda}    options={lendetOpt}    />
+            <FilterSelect id="literatura-lloji" label="Lloji i materialit" value={lloji} onChange={setLloji} options={llojetOpt}    />
             <button
               onClick={handleKerko}
               className="literatura-btn"
@@ -199,10 +202,12 @@ export function Literatura() {
             {/* Desktop table */}
             <div className="literatura-scroll">
               <table className="literatura-table">
+                <caption className="sr-only">Materialet mësimore</caption>
                 <thead>
                   <tr className="literatura-row">
                     {["Emri i materialit", "Lënda", "Lloji", "Data e publikimit", "Madhësia", "Veprimi"].map((h) => (
                       <th
+                        scope="col"
                         key={h}
                         className="literatura-th"
                       >

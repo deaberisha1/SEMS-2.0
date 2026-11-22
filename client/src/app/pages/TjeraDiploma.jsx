@@ -22,6 +22,7 @@ const fakultetiOptions = [
 ];
 
 function Select({
+  id,
   label,
   options,
   value,
@@ -29,9 +30,10 @@ function Select({
 }) {
   return (
     <div className="tjera-diploma-stack">
-      <label className="tjera-diploma-label">{label}</label>
+      <label htmlFor={id} className="tjera-diploma-label">{label}</label>
       <div className="tjera-diploma-box">
         <select
+          id={id}
           value={value}
           onChange={(e) => onChange(e.target.value)}
           className="tjera-diploma-select"
@@ -98,13 +100,13 @@ export function TjeraDiploma() {
         <div className="tjera-diploma-box-4">
           <div className="tjera-diploma-row-3">
             <div className="tjera-diploma-box-5">
-              <Select label="Viti akademik" options={vitiAkademikOptions} value={viti} onChange={setViti} />
+              <Select id="tjera-diploma-viti" label="Viti akademik" options={vitiAkademikOptions} value={viti} onChange={setViti} />
             </div>
             <div className="tjera-diploma-box-6">
-              <Select label="Niveli" options={niveliOptions} value={niveli} onChange={setNiveli} />
+              <Select id="tjera-diploma-niveli" label="Niveli" options={niveliOptions} value={niveli} onChange={setNiveli} />
             </div>
             <div className="tjera-diploma-box-7">
-              <Select label="Fakulteti" options={fakultetiOptions} value={fakulteti} onChange={setFakulteti} />
+              <Select id="tjera-diploma-fakulteti" label="Fakulteti" options={fakultetiOptions} value={fakulteti} onChange={setFakulteti} />
             </div>
             <button
               onClick={handleKerko}

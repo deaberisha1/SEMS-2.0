@@ -611,6 +611,7 @@ export function Transkripta() {
           {/* Desktop table */}
           <div className="transkripta-scroll-2">
             <table className="transkripta-table">
+              <caption className="sr-only">Rezultatet e lëndëve</caption>
               <thead>
                 <tr className="transkripta-row-10">
                   {[
@@ -623,6 +624,7 @@ export function Transkripta() {
                     { label: "Data e provimit", align: "left" },
                   ].map((h) => (
                     <th
+                      scope="col"
                       key={h.label}
                       className={`transkripta-th ${h.align === "center" ? "transkripta-th-2" : h.align === "right" ? "transkripta-th-3" : "transkripta-th-4"}`}
                     >

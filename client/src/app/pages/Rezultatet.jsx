@@ -175,16 +175,17 @@ export function Rezultatet() {
           {/* Desktop table */}
           <div className="rezultatet-scroll">
             <table className="rezultatet-table">
+              <caption className="sr-only">Rezultatet e provimeve</caption>
               <thead>
                 <tr className="rezultatet-row-3">
-                  <th className="rezultatet-th">Nr</th>
-                  <th className="rezultatet-th">Kodi</th>
-                  <th className="rezultatet-th">Lënda</th>
-                  <th className="rezultatet-th">Profesori</th>
-                  <th className="rezultatet-th-2">Nota</th>
-                  <th className="rezultatet-th-2">ECTS</th>
-                  <th className="rezultatet-th">Data</th>
-                  <th className="rezultatet-th">Statusi</th>
+                  <th scope="col" className="rezultatet-th">Nr</th>
+                  <th scope="col" className="rezultatet-th">Kodi</th>
+                  <th scope="col" className="rezultatet-th">Lënda</th>
+                  <th scope="col" className="rezultatet-th">Profesori</th>
+                  <th scope="col" className="rezultatet-th-2">Nota</th>
+                  <th scope="col" className="rezultatet-th-2">ECTS</th>
+                  <th scope="col" className="rezultatet-th">Data</th>
+                  <th scope="col" className="rezultatet-th">Statusi</th>
                 </tr>
               </thead>
               <tbody>
